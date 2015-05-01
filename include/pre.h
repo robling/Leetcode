@@ -1,3 +1,5 @@
+#ifndef _PRE_H_
+#define _PRE_H_
 #include <iostream>
 using std::string;
 using std::cin;
@@ -26,3 +28,4 @@ void PrintToBinary(_T num)
 	}
 	cout << endl;
 }
+#endif //_PRE_H_
