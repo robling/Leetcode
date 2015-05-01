@@ -1,1 +1,1 @@
-rm *.exe *.obj
+del *.exe *.obj /f /s /a

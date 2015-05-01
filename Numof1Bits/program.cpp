@@ -23,7 +23,7 @@ int hammingWeight(uint32_t n)
 }
 #undef LENGTH_OF_INT32
 
-int Mymain()
+void Mymain()
 {
 	vector<int> testData = {1, 2, 3, 23, 45, 67};
 	for (int i : testData)

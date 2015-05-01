@@ -6,6 +6,8 @@ using std::cin;
 using std::cout;
 using std::endl;
 
+#include <cstdint>
+
 #ifdef _MSC_VER
 static_assert(_MSC_VER >= 1600, "C++ 11 fetures required");
 #endif

@@ -32,7 +32,7 @@ int rob(vector<int>& nums)
 	return val;
 }
 
-int Mymain()
+void Mymain()
 {
 	TIC
 	vector<int> test = {7,0,8,0,0,1};
