@@ -1,7 +1,7 @@
 /**************************************************************
  * Author	: Robin Liu
  * Date		: 2015-05-01
- * Detail 	: https://leetcode.com/submissions/detail/26718392/
+ * Detail 	: https://leetcode.com/submissions/detail/26722746/
  **************************************************************/
 #include "../include/pre.h"
 
