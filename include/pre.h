@@ -5,11 +5,17 @@ using std::cout;
 using std::endl;
 
 #ifdef _MSC_VER
-static_assert(_MSC_VER >= 1600, "\
-C++ 11 fetures required");
+static_assert(_MSC_VER >= 1600, "C++ 11 fetures required");
 #endif
 
 #define Mymain main
+
+#include <ctime>
+#define TIC std::clock_t myTimeCounter = std::clock(); 
+#define TOC cout << "====================\nTime : " \
+				 << (( std::clock() - myTimeCounter ) / (double) CLOCKS_PER_SEC) \
+				 << " s" \
+				 << endl;
 
 template<typename _T>
 void PrintToBinary(_T num)
