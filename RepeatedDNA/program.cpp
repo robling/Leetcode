@@ -5,28 +5,17 @@ using std::map;
 using std::hash_map;
 
 const int MAX_10DNA_TYPE = (1 << 20) - 1;
-int ConvertSubDNAToInt(const string& s, int id = 0, int length = 10)
+/*
+inline int ConvertSubDNAToInt(const string& s, int id = 0, int length = 10)
 {
     int val = 0;
     for (int i = 0; i < length; i++)
-    {
-        switch (s[id + 9 - i])
-        {
-        case 'A':
-            break;
-        case 'G':
-            val |= (1 << (2 * i));
-            break;
-        case 'C':
-            val |= (2 << (2 * i));
-            break;
-        case 'T':
-            val |= (3 << (2 * i));
-            break;
-        }
-    }
+        val |= (((s[id + 9 - i] & 6) >> 1) << (2 * i));
     return val;
 }
+*/
+#define ConvertSubDNAToInt(a, b) int val = 0; \
+    for (int k = 0; k < 10; k++) val |= (((a[b + 9 - k] & 6) >> 1) << (2 * k));
 
 string ConvertIntToDNAseq(int val, int length = 10)
 {
@@ -39,10 +28,10 @@ string ConvertIntToDNAseq(int val, int length = 10)
             str[i] = 'A';
             break;
         case 1:
-            str[i] = 'G';
+            str[i] = 'C';
             break;
         case 2:
-            str[i] = 'C';
+            str[i] = 'G';
             break;
         case 3:
             str[i] = 'T';
@@ -72,15 +61,13 @@ vector<string> findRepeatedDnaSequences(string s)
     //For each sub string of input string
     for (int i = 0; i != s.size() - 9; i++)
     {
-        int tmp = ConvertSubDNAToInt(s, i);
-        //cout << tmp << "\t : " << hashTable[tmp] << " -> ";
-        ++hashTable[tmp];
-        //cout << hashTable[tmp] << "\n";
-    }
-    for (auto i : hashTable)
-    {
-        if (i.second > 1)
-            rst.push_back(ConvertIntToDNAseq(i.first));
+        ConvertSubDNAToInt(s, i);
+        //cout << val << "\t : " << hashTable[val] << " -> ";
+        if (hashTable[val] == 2)
+            continue;
+        if (++hashTable[val] == 2)
+            rst.push_back(s.substr(i, 10));
+        //cout << hashTable[val] << "\n";
     }
     return rst;
 }
@@ -92,6 +79,7 @@ int Mymain()
     for (string s : testData)
     {
         cout << s << ": \n";
+        //findRepeatedDnaSequences(s);
         PrintVector(findRepeatedDnaSequences(s), " \n");
         //PrintToBinary(ConvertSubDNAToInt(s));
         cout << "=========\n";
