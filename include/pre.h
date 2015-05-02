@@ -6,6 +6,8 @@ using std::cin;
 using std::cout;
 using std::endl;
 
+#include <cassert>
+
 #include <cstdint>
 
 #ifdef _MSC_VER
