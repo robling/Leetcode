@@ -88,7 +88,7 @@ vector<string> findRepeatedDnaSequences(string s)
 int Mymain()
 {
     TIC
-    vector<string> testData = {"AAAAAAAAAAA", "", "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"};
+    vector<string> testData = {"AAAAAAAAAAA", "", "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT", "AAAAACCCCCAAAAACCCCCAAAAAGGGTTT"};
     for (string s : testData)
     {
         cout << s << ": \n";
