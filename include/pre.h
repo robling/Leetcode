@@ -11,6 +11,8 @@ using std::endl;
 
 #include <cstdint>
 
+//#include <string.h>
+
 #ifdef _MSC_VER
 static_assert(_MSC_VER >= 1600, "C++ 11 fetures required");
 #endif
