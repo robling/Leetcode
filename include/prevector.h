@@ -1,15 +1,15 @@
 #ifndef _PREVECTOR_H_
 #define _PREVECTOR_H_
-#include "..\include\pre.h" 
+#include "pre.h" 
 #include <vector>
 using std::vector;
 
 template<typename _T>
-void PrintVector(std::vector<_T> list)
+void PrintVector(std::vector<_T> list, string splitMark = ", ")
 {
 	for (_T elem : list)
 	{
-		cout << elem << ", ";
+		cout << elem << splitMark;
 	}
 	cout << endl;
 }
