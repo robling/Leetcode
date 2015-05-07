@@ -20,8 +20,8 @@ static_assert(_MSC_VER >= 1600, "C++ 11 fetures required");
 #define Mymain main
 
 #include <ctime>
-#define TIC std::clock_t myTimeCounter = std::clock(); 
-#define TOC cout << "====================\nTime : " \
+#define TIC std::clock_t myTimeCounter = std::clock(); cout << "\n=*=*=*=*=*=*=*=*=*=*=*=*=*=*=\n";
+#define TOC cout << "=============================\nTime : " \
 				 << (( std::clock() - myTimeCounter ) / (double) CLOCKS_PER_SEC) \
 				 << " s" \
 				 << endl;
