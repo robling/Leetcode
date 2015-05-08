@@ -1,7 +1,6 @@
 #include "../include/prevector.h"
 
-
-#define ABS(x) ((x ^ x >> 31) - (x >> 31)) //For *32bit int*  
+#define ABS(x) ((x ^ x >> 31) - (x >> 31)) //For *32bit int*
 #define MAX(a, b) (a > b ? a : b)
 int maximumGap(vector<int>& nums) 
 {
@@ -17,8 +16,9 @@ int maximumGap(vector<int>& nums)
         max = MAX(max, i);
     return max;
 }
+
 void Mymain()
 {
-    vector<int> test = {1, 2, 8, 97, 85, 8};
+    vector<int> test = {1, 2, 8, 11, 16, 6};
     cout << maximumGap(test) << endl;
 }
