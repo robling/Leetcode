@@ -1,11 +1,17 @@
 #ifndef _PRE_H_
 #define _PRE_H_
 #include <iostream>
+
 #include <string>
 using std::string;
 using std::cin;
 using std::cout;
 using std::endl;
+
+#include <sstream>
+using std::stringstream;
+
+#include <algorithm>
 
 #include <cassert>
 
