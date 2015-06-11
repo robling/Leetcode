@@ -36,56 +36,7 @@ vector<pair<int, int>> getSkyline(vector<vector<int>>& buildings){
 	if (buildings.size() == 0 || buildings[0][0].size() == 0)
 		return vector<pair<int, int>>();
 	vector<pair<int, int>> rst;
-	int rightEnd = 0;
-	vector<pair<int, int>> rightTmp;
-	for_each(buildings.begin(), buildings.end(), [&](vector<int> building){
-		int rightPointHeight = 0;
-		for ( ;it_RightTmp != rightTmp.end(); )
-		{
-			// Check right points array
-			// If it locates at left side of the current building,
-			// push it to result vector
-			if (building[0] > it_RightTmp[0].first)
-			{
-				rst.push_back(it_RightTmp[0]);
-				it_RightTmp = rightTmp.erase(it_RightTmp);
-				continue;
-			}
 
-			// If the left point higher than former left point
-			if (rst.rbegin()[0].second < building[2]){
-				// Save current right height
-				rightPointHeight = rst.rbegin()[0].second;
-				// Push back the left point to result vector
-				rst.push_back(pair<int, int>(building[0], building[2]));
-			}
-
-			// If current right point not coverd by current building,
-			// insert new right point with current height
-			if (building[1] < it_RightTmp[0].first)
-			{
-				rst.insert(pair<int, int>(building[2], rightPointHeight));
-				break;
-			}
-
-			// Check if current right point is coverd by current building
-			if (building[2] > it_RightTmp[0].second)
-			{
-				rightPointHeight = it_RightTmp[0].second;
-				it_RightTmp[0].second = building[2];
-			}
-			it_RightTmp++;
-			continue;
-
-		}
-		// For begin and end points
-		if (building[0] > rightEnd){
-			rst.push_back(pair<int, int>(rightEnd, 0));
-			rightEnd = building[0][1];
-			// New building series
-			rst.push_back(pair<int, int>(building[0], building[2]);
-		}
-	});
 }
 
 void Mymain()
