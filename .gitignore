@@ -1,6 +1,7 @@
 *.sln
 *.exe
 *.obj
+*.out
 envi.bat
 
 /test
