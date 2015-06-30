@@ -79,4 +79,5 @@ int Mymain()
         cout << s << ": ";
         cout << longestValidParentheses(s) << "\n";
     }
+		return 0;
 }

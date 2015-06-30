@@ -3,7 +3,7 @@
  * Date		: 2015-05-01
  * Detail 	: https://leetcode.com/submissions/detail/26697057/
  **************************************************************/
-#include "..\include\pre.h"
+#include "../include/pre.h"
 #include <cstdint>
 
 #include <vector>
@@ -23,7 +23,7 @@ int hammingWeight(uint32_t n)
 }
 #undef LENGTH_OF_INT32
 
-void Mymain()
+int Mymain()
 {
 	vector<int> testData = {1, 2, 3, 23, 45, 67};
 	for (int i : testData)
@@ -34,4 +34,5 @@ void Mymain()
 		cout << "WET :" << hammingWeight(i) << endl << "=====" << endl;
 	}
 	system("pause");
+	return 0;
 }
