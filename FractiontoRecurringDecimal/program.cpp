@@ -6,15 +6,15 @@ using std::pair;
 
 const int BITSOFINT = sizeof(int) * 8;
 
-string fractionToDecimal(int numerator, int denominator) 
-{ 
+string fractionToDecimal(int numerator, int denominator)
+{
     // x / y
-    int64_t x = (int64_t)numerator; 
+    int64_t x = (int64_t)numerator;
     int64_t y = (int64_t)denominator;
     if (y == 0) return "NAN";
     stringstream ss, sp;
     map<int64_t, int> dividends;
-    if (x != 0 && ((x > 0) ^ (y > 0 )) == 1) 
+    if (x != 0 && ((x > 0) ^ (y > 0 )) == 1)
         ss << '-';
     x = abs(x); y = abs(y);
     ss << static_cast<int64_t>(x / y);
@@ -39,7 +39,7 @@ string fractionToDecimal(int numerator, int denominator)
     return ss.str();
 }
 
-void Mymain()
+int Mymain()
 {
     cout << "-12         : " << typeid(-12).name() << endl;
     cout << " 2147483648 : " << typeid(2147483647 + 1).name() << endl;
@@ -48,20 +48,21 @@ void Mymain()
     cout << "-2147483648 : " << (abs((-2147483647 - 1))) << endl;
     cout << "-2147483648 : " << (abs(2147483647 + 1)) << endl;
     vector<pair<int, int>> test = {
-        std::make_pair(1, 19), 
-        std::make_pair(0, -19), 
-        std::make_pair(-2147483647 - 1, -1), 
-        std::make_pair(-1, -2147483648), 
-        std::make_pair(1, 11), 
-        std::make_pair(1, 3), 
-        std::make_pair(6785, 5), 
-        std::make_pair(4, 0), 
-        std::make_pair(5, 2), 
-        std::make_pair(0, 4), 
+        std::make_pair(1, 19),
+        std::make_pair(0, -19),
+        std::make_pair(-2147483647 - 1, -1),
+        std::make_pair(-1, -2147483648),
+        std::make_pair(1, 11),
+        std::make_pair(1, 3),
+        std::make_pair(6785, 5),
+        std::make_pair(4, 0),
+        std::make_pair(5, 2),
+        std::make_pair(0, 4),
     };
     for (auto p : test)
     {
         cout << '(' << p.first << ", " << p.second << ')' << " : ";
         cout << fractionToDecimal(p.first, p.second) << endl;
     }
+    return 0;
 }

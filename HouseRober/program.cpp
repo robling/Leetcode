@@ -3,7 +3,7 @@
  * Date		: 2015-05-01
  * Detail 	: https://leetcode.com/submissions/detail/26718392/
  **************************************************************/
-#include "..\include\pre.h" 
+#include "../include/pre.h"
 #include <vector>
 using std::vector;
 
@@ -20,7 +20,7 @@ int robN(vector<int>& nums, int n)
 		got[n - 1] = MAX(robN(nums, n - 2) + nums[n - 1], robN(nums, n - 1));
 	return got[n - 1];
 }
-int rob(vector<int>& nums) 
+int rob(vector<int>& nums)
 {
 	got = new int[nums.size()];
 	for (int i = 0; i != nums.size(); i++)
@@ -32,7 +32,7 @@ int rob(vector<int>& nums)
 	return val;
 }
 
-void Mymain()
+int Mymain()
 {
 	TIC
 	vector<int> test = {7,0,8,0,0,1};
@@ -44,4 +44,5 @@ void Mymain()
 	test = {183,219,57,193,94,233,202,154,65,240,97,234,100,249,186,66,90,238,168,128,177,235,50,81,185,165,217,207,88,80,112,78,135,62,228,247,211};
 	cout << rob(test) << endl;
 	TOC
+	return 0;
 }

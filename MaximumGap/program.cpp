@@ -2,7 +2,7 @@
 
 #define ABS(x) ((x ^ x >> 31) - (x >> 31)) //For *32bit int*
 #define MAX(a, b) (a > b ? a : b)
-int maximumGap(vector<int>& nums) 
+int maximumGap(vector<int>& nums)
 {
     int size = nums.size();
     if (size < 2) return 0;
@@ -17,8 +17,9 @@ int maximumGap(vector<int>& nums)
     return max;
 }
 
-void Mymain()
+int Mymain()
 {
     vector<int> test = {1, 2, 8, 11, 16, 6};
     cout << maximumGap(test) << endl;
+    return 0;
 }

@@ -1,5 +1,5 @@
 #include "../include/prevector.h"
-
+#include "cstring"
 int FactorialCalc(int n)
 {
     int rst = 1;
@@ -48,7 +48,7 @@ int CalcByCurrentPosition(vector<vector<int>>& dungeon, int nXoff, int nYoff)
 	return rst;
 }
 
-int calculateMinimumHP(vector<vector<int>>& dungeon) 
+int calculateMinimumHP(vector<vector<int>>& dungeon)
 {
     xStep = dungeon.size();
     yStep = dungeon.at(0).size();

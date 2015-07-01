@@ -2,4 +2,6 @@
 *.exe
 *.obj
 envi.bat
-testing/
+
+/testing
+/test
