@@ -16,6 +16,7 @@ using std::stringstream;
 #include <cassert>
 
 #include <cstdint>
+#include <limits>
 
 //#include <string.h>
 
