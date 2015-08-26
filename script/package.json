@@ -1,0 +1,15 @@
+{
+  "name": "leetcode_helper",
+  "version": "1.0.0",
+  "description": "helper script assists generating new solution to leetcode",
+  "author": "Robin Liu",
+  "license": "MIT",
+  "main": "helper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+      "commander": "*",
+      "sync-request": "*"
+  }
+}
