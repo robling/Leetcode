@@ -4,9 +4,11 @@ let program = require('commander');
 let fs = require('fs');
 let path = require('path');
 let request = require('sync-request');
+let swig = require('swig');
 
 const repo_root_path = path.resolve(__dirname, '../');
 const list_data_file = path.resolve(repo_root_path, './problems.json');
+const list_file = path.resolve(repo_root_path, './README.md');
 const source_dir = path.resolve(repo_root_path, 'src');
 const fixed_file_name = 'program.cpp';
 const pre_code_snip = '#include \"../include/pre.h\"\n\n\nint main()\n{\n    return 0;\n}';
@@ -78,6 +80,7 @@ program
             data.problems[problem_num].solution_uri = solution_code;
         }
         data_write_back(data);
+        make_readme_file();
     });
 program
     .command('list')
@@ -89,7 +92,9 @@ program
     .command('debug')
     .description('debug enterpoint, do not use it')
     .action(function(){
-        update_cache();
+        //update_cache();
+        make_readme_file();
+        //console.log('Do nothing');
     });
 program
     .command('*')
@@ -224,6 +229,29 @@ function update_cache() {
         data.last_index += problems_meta.length;
         fs.writeFileSync(list_data_file,JSON.stringify(data, null, 4));
     }
+}
+function make_readme_file(){
+    if (!fs.existsSync(list_data_file)) {
+        newcachefile();
+    }
+    let data = load_data();
+    let to_render = [];
+    for (let x in data.problems) {
+        if (data.problems[x].is_solved) {
+            to_render.push(x);
+        }
+    }
+    var source = {};
+    source.leetcode_uri = leetcode_base_uri;
+    source.data = data;
+    source.solved = to_render;
+    source.difficulty = {
+        '1': 'Easy',
+        '2': 'Medium',
+        '3': 'Hard'
+    };
+    let rst = swig.renderFile(path.resolve(__dirname, './read_me_tpl.md'), source);
+    fs.writeFileSync(list_file, rst, 'utf-8');
 }
 
 })();
