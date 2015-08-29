@@ -8,37 +8,37 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 
 |  #  | Title | Solution | Difficulty |
 | --- | ----- | -------- | ---------- |
-| 8 | [String to Integer (atoi)](https://leetcode.com//problems/string-to-integer-atoi/) | [c++](atoi) | Easy |
-| 32 | [Longest Valid Parentheses](https://leetcode.com//problems/longest-valid-parentheses/) | [c++](LongestValidParentheses) | Hard |
-| 33 | [Search in Rotated Sorted Array](https://leetcode.com//problems/search-in-rotated-sorted-array/) | [c++](SearchInRotatedSortedArray) | Hard |
-| 36 | [Valid Sudoku](https://leetcode.com//problems/valid-sudoku/) | [c++](ValidSudoku) | Easy |
-| 37 | [Sudoku Solver](https://leetcode.com//problems/sudoku-solver/) | [c++](SudokuSolver) | Hard |
-| 118 | [Pascal&#39;s Triangle](https://leetcode.com//problems/pascals-triangle/) | [c++](PascalTriangel) | Easy |
-| 135 | [Candy](https://leetcode.com//problems/candy/) | [c++](Candy) | Hard |
-| 155 | [Min Stack](https://leetcode.com//problems/min-stack/) | [c++](MinStack) | Easy |
-| 166 | [Fraction to Recurring Decimal](https://leetcode.com//problems/fraction-to-recurring-decimal/) | [c++](FractiontoRecurringDecimal) | Medium |
-| 171 | [Excel Sheet Column Number](https://leetcode.com//problems/excel-sheet-column-number/) | [c++](ExcelSheetColumnNumber) | Easy |
-| 174 | [Dungeon Game](https://leetcode.com//problems/dungeon-game/) | [c++](DungeonGame) | Hard |
-| 179 | [Largest Number](https://leetcode.com//problems/largest-number/) | [c++](LargestNumber) | Medium |
-| 187 | [Repeated DNA Sequences](https://leetcode.com//problems/repeated-dna-sequences/) | [c++](RepeatedDNA) | Medium |
-| 189 | [Rotate Array](https://leetcode.com//problems/rotate-array/) | [c++](RotateArray) | Easy |
-| 190 | [Reverse Bits](https://leetcode.com//problems/reverse-bits/) | [c++](ReverseBits) | Easy |
-| 191 | [Number of 1 Bits](https://leetcode.com//problems/number-of-1-bits/) | [c++](Numof1Bits) | Easy |
-| 198 | [House Robber](https://leetcode.com//problems/house-robber/) | [c++](HouseRober) | Easy |
-| 201 | [Bitwise AND of Numbers Range](https://leetcode.com//problems/bitwise-and-of-numbers-range/) | [c++](rangebitwiseAnd) | Medium |
-| 204 | [Count Primes](https://leetcode.com//problems/count-primes/) | [c++](countprime) | Easy |
-| 205 | [Isomorphic Strings](https://leetcode.com//problems/isomorphic-strings/) | [c++](IsomorphicStrings) | Easy |
-| 214 | [Shortest Palindrome](https://leetcode.com//problems/shortest-palindrome/) | [c++](ShortestPalindrome) | Hard |
-| 215 | [Kth Largest Element in an Array](https://leetcode.com//problems/kth-largest-element-in-an-array/) | [c++](KthLargestElem) | Medium |
-| 222 | [Count Complete Tree Nodes](https://leetcode.com//problems/count-complete-tree-nodes/) | [c++](CountCompleteTreeNode) | Medium |
-| 223 | [Rectangle Area](https://leetcode.com//problems/rectangle-area/) | [c++](RectangleArea) | Easy |
-| 224 | [Basic Calculator](https://leetcode.com//problems/basic-calculator/) | [c++](BasicCalculator) | Medium |
-| 227 | [Basic Calculator II](https://leetcode.com//problems/basic-calculator-ii/) | [c++](BasicCalculator2) | Medium |
-| 231 | [Power of Two](https://leetcode.com//problems/power-of-two/) | [c++](PowerofTwo) | Easy |
-| 233 | [Number of Digit One](https://leetcode.com//problems/number-of-digit-one/) | [c++](NumberofDigitOne) | Medium |
-| 238 | [Product of Array Except Self](https://leetcode.com//problems/product-of-array-except-self/) | [c++](ProductExceptSelf) | Medium |
-| 239 | [Sliding Window Maximum](https://leetcode.com//problems/sliding-window-maximum/) | [c++](SlidingWindowMax) | Hard |
-| 242 | [Valid Anagram](https://leetcode.com//problems/valid-anagram/) | [c++](ValidAnagram) | Easy |
+| 8 | [String to Integer (atoi)](https://leetcode.com//problems/string-to-integer-atoi/) | [c++](src/atoi/program.cpp) | Easy |
+| 32 | [Longest Valid Parentheses](https://leetcode.com//problems/longest-valid-parentheses/) | [c++](src/LongestValidParentheses/program.cpp) | Hard |
+| 33 | [Search in Rotated Sorted Array](https://leetcode.com//problems/search-in-rotated-sorted-array/) | [c++](src/SearchInRotatedSortedArray/program.cpp) | Hard |
+| 36 | [Valid Sudoku](https://leetcode.com//problems/valid-sudoku/) | [c++](src/ValidSudoku/program.cpp) | Easy |
+| 37 | [Sudoku Solver](https://leetcode.com//problems/sudoku-solver/) | [c++](src/SudokuSolver/program.cpp) | Hard |
+| 118 | [Pascal&#39;s Triangle](https://leetcode.com//problems/pascals-triangle/) | [c++](src/PascalTriangel/program.cpp) | Easy |
+| 135 | [Candy](https://leetcode.com//problems/candy/) | [c++](src/Candy/program.cpp) | Hard |
+| 155 | [Min Stack](https://leetcode.com//problems/min-stack/) | [c++](src/MinStack/program.cpp) | Easy |
+| 166 | [Fraction to Recurring Decimal](https://leetcode.com//problems/fraction-to-recurring-decimal/) | [c++](src/FractiontoRecurringDecimal/program.cpp) | Medium |
+| 171 | [Excel Sheet Column Number](https://leetcode.com//problems/excel-sheet-column-number/) | [c++](src/ExcelSheetColumnNumber/program.cpp) | Easy |
+| 174 | [Dungeon Game](https://leetcode.com//problems/dungeon-game/) | [c++](src/DungeonGame/program.cpp) | Hard |
+| 179 | [Largest Number](https://leetcode.com//problems/largest-number/) | [c++](src/LargestNumber/program.cpp) | Medium |
+| 187 | [Repeated DNA Sequences](https://leetcode.com//problems/repeated-dna-sequences/) | [c++](src/RepeatedDNA/program.cpp) | Medium |
+| 189 | [Rotate Array](https://leetcode.com//problems/rotate-array/) | [c++](src/RotateArray/program.cpp) | Easy |
+| 190 | [Reverse Bits](https://leetcode.com//problems/reverse-bits/) | [c++](src/ReverseBits/program.cpp) | Easy |
+| 191 | [Number of 1 Bits](https://leetcode.com//problems/number-of-1-bits/) | [c++](src/Numof1Bits/program.cpp) | Easy |
+| 198 | [House Robber](https://leetcode.com//problems/house-robber/) | [c++](src/HouseRober/program.cpp) | Easy |
+| 201 | [Bitwise AND of Numbers Range](https://leetcode.com//problems/bitwise-and-of-numbers-range/) | [c++](src/rangebitwiseAnd/program.cpp) | Medium |
+| 204 | [Count Primes](https://leetcode.com//problems/count-primes/) | [c++](src/countprime/program.cpp) | Easy |
+| 205 | [Isomorphic Strings](https://leetcode.com//problems/isomorphic-strings/) | [c++](src/IsomorphicStrings/program.cpp) | Easy |
+| 214 | [Shortest Palindrome](https://leetcode.com//problems/shortest-palindrome/) | [c++](src/ShortestPalindrome/program.cpp) | Hard |
+| 215 | [Kth Largest Element in an Array](https://leetcode.com//problems/kth-largest-element-in-an-array/) | [c++](src/KthLargestElem/program.cpp) | Medium |
+| 222 | [Count Complete Tree Nodes](https://leetcode.com//problems/count-complete-tree-nodes/) | [c++](src/CountCompleteTreeNode/program.cpp) | Medium |
+| 223 | [Rectangle Area](https://leetcode.com//problems/rectangle-area/) | [c++](src/RectangleArea/program.cpp) | Easy |
+| 224 | [Basic Calculator](https://leetcode.com//problems/basic-calculator/) | [c++](src/BasicCalculator/program.cpp) | Medium |
+| 227 | [Basic Calculator II](https://leetcode.com//problems/basic-calculator-ii/) | [c++](src/BasicCalculator2/program.cpp) | Medium |
+| 231 | [Power of Two](https://leetcode.com//problems/power-of-two/) | [c++](src/PowerofTwo/program.cpp) | Easy |
+| 233 | [Number of Digit One](https://leetcode.com//problems/number-of-digit-one/) | [c++](src/NumberofDigitOne/program.cpp) | Medium |
+| 238 | [Product of Array Except Self](https://leetcode.com//problems/product-of-array-except-self/) | [c++](src/ProductExceptSelf/program.cpp) | Medium |
+| 239 | [Sliding Window Maximum](https://leetcode.com//problems/sliding-window-maximum/) | [c++](src/SlidingWindowMax/program.cpp) | Hard |
+| 242 | [Valid Anagram](https://leetcode.com//problems/valid-anagram/) | [c++](src/ValidAnagram/program.cpp) | Easy |
 
 
 

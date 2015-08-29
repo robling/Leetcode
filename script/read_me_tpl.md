@@ -8,7 +8,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 
 |  #  | Title | Solution | Difficulty |
 | --- | ----- | -------- | ---------- |
-{% for x in solved %}| {{ x }} | [{{ data.problems[x].name}}]({{ leetcode_uri + data.problems[x].uri }}) | [c++]({{ data.problems[x].dir }}) | {{ difficulty[data.problems[x].difficulty] }} |
+{% for x in solved %}| {{ x }} | [{{ data.problems[x].name}}]({{ leetcode_uri + data.problems[x].uri }}) | [c++]({{ 'src/' + data.problems[x].dir + '/program.cpp' }}) | {{ difficulty[data.problems[x].difficulty] }} |
 {% endfor %}
 
 
