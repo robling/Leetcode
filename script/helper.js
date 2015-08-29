@@ -67,7 +67,7 @@ program
         console.log('Problem dir name is : ', dir_name);
         make_solution_file(dir_name);
         data.problems[problem_num].dir = dir_name;
-        data_write_back();
+        data_write_back(data);
     });
 program
     .command('solve <problem_num> [solution_code]')
