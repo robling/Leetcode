@@ -39,6 +39,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 238 | [Product of Array Except Self](https://leetcode.com//problems/product-of-array-except-self/) | [c++](src/ProductExceptSelf/program.cpp) | Medium |
 | 239 | [Sliding Window Maximum](https://leetcode.com//problems/sliding-window-maximum/) | [c++](src/SlidingWindowMax/program.cpp) | Hard |
 | 242 | [Valid Anagram](https://leetcode.com//problems/valid-anagram/) | [c++](src/ValidAnagram/program.cpp) | Easy |
+| 268 | [Missing Number](https://leetcode.com//problems/missing-number/) | [c++](src/MissingNumber/program.cpp) | Medium |
 
 
 

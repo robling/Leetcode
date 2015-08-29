@@ -18,7 +18,8 @@ using std::stringstream;
 #include <cstdint>
 #include <limits>
 
-//#include <string.h>
+#include <vector>
+using std::vector;
 
 #ifdef _MSC_VER
 static_assert(_MSC_VER >= 1600, "C++ 11 fetures required");

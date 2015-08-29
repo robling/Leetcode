@@ -1639,7 +1639,9 @@
             "uri": "/problems/missing-number/",
             "name": "Missing Number",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "MissingNumber",
+            "solution_uri": "38007199"
         },
         "269": {
             "uri": "/problems/alien-dictionary/",
