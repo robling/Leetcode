@@ -1609,7 +1609,8 @@
             "uri": "/problems/ugly-number/",
             "name": "Ugly Number",
             "difficulty": "1",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "UglyNumber"
         },
         "264": {
             "uri": "/problems/ugly-number-ii/",
