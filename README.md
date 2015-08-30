@@ -40,6 +40,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 239 | [Sliding Window Maximum](https://leetcode.com//problems/sliding-window-maximum/) | [c++](src/SlidingWindowMax/program.cpp) | Hard |
 | 242 | [Valid Anagram](https://leetcode.com//problems/valid-anagram/) | [c++](src/ValidAnagram/program.cpp) | Easy |
 | 263 | [Ugly Number](https://leetcode.com//problems/ugly-number/) | [c++](src/UglyNumber/program.cpp) | Easy |
+| 264 | [Ugly Number II](https://leetcode.com//problems/ugly-number-ii/) | [c++](src/UglyNumberII/program.cpp) | Medium |
 | 268 | [Missing Number](https://leetcode.com//problems/missing-number/) | [c++](src/MissingNumber/program.cpp) | Medium |
 
 

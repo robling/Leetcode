@@ -12,6 +12,7 @@ using std::endl;
 using std::stringstream;
 
 #include <algorithm>
+#include <functional>
 
 #include <cassert>
 
@@ -20,6 +21,9 @@ using std::stringstream;
 
 #include <vector>
 using std::vector;
+
+#include <array>
+using std::array;
 
 #ifdef _MSC_VER
 static_assert(_MSC_VER >= 1600, "C++ 11 fetures required");
@@ -43,4 +47,5 @@ void PrintToBinary(_T num)
 	}
 	cout << endl;
 }
+
 #endif //_PRE_H_

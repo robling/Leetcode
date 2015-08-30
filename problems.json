@@ -1616,7 +1616,9 @@
             "uri": "/problems/ugly-number-ii/",
             "name": "Ugly Number II",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "UglyNumberII",
+            "solution_uri": "38124771"
         },
         "265": {
             "uri": "/problems/paint-house-ii/",
