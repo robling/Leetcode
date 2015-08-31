@@ -395,7 +395,9 @@
             "uri": "/problems/valid-number/",
             "name": "Valid Number",
             "difficulty": "3",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "ValidNumber",
+            "solution_uri": "38249656"
         },
         "66": {
             "uri": "/problems/plus-one/",
