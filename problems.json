@@ -1438,13 +1438,17 @@
             "uri": "/problems/lowest-common-ancestor-of-a-binary-search-tree/",
             "name": "Lowest Common Ancestor of a Binary Search Tree",
             "difficulty": "1",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "LowestCommonAncestorofaBinarySearchTree",
+            "solution_uri": "33211049"
         },
         "236": {
             "uri": "/problems/lowest-common-ancestor-of-a-binary-tree/",
             "name": "Lowest Common Ancestor of a Binary Tree",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "LowestCommonAncestorofaBinaryTree",
+            "solution_uri": "38220695"
         },
         "237": {
             "uri": "/problems/delete-node-in-a-linked-list/",

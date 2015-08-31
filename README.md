@@ -36,6 +36,8 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 227 | [Basic Calculator II](https://leetcode.com//problems/basic-calculator-ii/) | [c++](src/BasicCalculator2/program.cpp) | Medium |
 | 231 | [Power of Two](https://leetcode.com//problems/power-of-two/) | [c++](src/PowerofTwo/program.cpp) | Easy |
 | 233 | [Number of Digit One](https://leetcode.com//problems/number-of-digit-one/) | [c++](src/NumberofDigitOne/program.cpp) | Medium |
+| 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com//problems/lowest-common-ancestor-of-a-binary-search-tree/) | [c++](src/LowestCommonAncestorofaBinarySearchTree/program.cpp) | Easy |
+| 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com//problems/lowest-common-ancestor-of-a-binary-tree/) | [c++](src/LowestCommonAncestorofaBinaryTree/program.cpp) | Medium |
 | 238 | [Product of Array Except Self](https://leetcode.com//problems/product-of-array-except-self/) | [c++](src/ProductExceptSelf/program.cpp) | Medium |
 | 239 | [Sliding Window Maximum](https://leetcode.com//problems/sliding-window-maximum/) | [c++](src/SlidingWindowMax/program.cpp) | Hard |
 | 242 | [Valid Anagram](https://leetcode.com//problems/valid-anagram/) | [c++](src/ValidAnagram/program.cpp) | Easy |
