@@ -825,13 +825,17 @@
             "uri": "/problems/single-number/",
             "name": "Single Number",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "SingleNumber",
+            "solution_uri": "38371665"
         },
         "137": {
             "uri": "/problems/single-number-ii/",
             "name": "Single Number II",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "SingleNumberII",
+            "solution_uri": "38377282"
         },
         "138": {
             "uri": "/problems/copy-list-with-random-pointer/",
@@ -1597,7 +1601,9 @@
             "uri": "/problems/single-number-iii/",
             "name": "Single Number III",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "SingleNumberIII",
+            "solution_uri": "38380703"
         },
         "261": {
             "uri": "/problems/graph-valid-tree/",

@@ -16,6 +16,8 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 65 | [Valid Number](https://leetcode.com//problems/valid-number/) | [c++](src/ValidNumber/program.cpp) | Hard |
 | 118 | [Pascal&#39;s Triangle](https://leetcode.com//problems/pascals-triangle/) | [c++](src/PascalTriangel/program.cpp) | Easy |
 | 135 | [Candy](https://leetcode.com//problems/candy/) | [c++](src/Candy/program.cpp) | Hard |
+| 136 | [Single Number](https://leetcode.com//problems/single-number/) | [c++](src/SingleNumber/program.cpp) | Medium |
+| 137 | [Single Number II](https://leetcode.com//problems/single-number-ii/) | [c++](src/SingleNumberII/program.cpp) | Medium |
 | 155 | [Min Stack](https://leetcode.com//problems/min-stack/) | [c++](src/MinStack/program.cpp) | Easy |
 | 166 | [Fraction to Recurring Decimal](https://leetcode.com//problems/fraction-to-recurring-decimal/) | [c++](src/FractiontoRecurringDecimal/program.cpp) | Medium |
 | 171 | [Excel Sheet Column Number](https://leetcode.com//problems/excel-sheet-column-number/) | [c++](src/ExcelSheetColumnNumber/program.cpp) | Easy |
@@ -42,6 +44,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 238 | [Product of Array Except Self](https://leetcode.com//problems/product-of-array-except-self/) | [c++](src/ProductExceptSelf/program.cpp) | Medium |
 | 239 | [Sliding Window Maximum](https://leetcode.com//problems/sliding-window-maximum/) | [c++](src/SlidingWindowMax/program.cpp) | Hard |
 | 242 | [Valid Anagram](https://leetcode.com//problems/valid-anagram/) | [c++](src/ValidAnagram/program.cpp) | Easy |
+| 260 | [Single Number III](https://leetcode.com//problems/single-number-iii/) | [c++](src/SingleNumberIII/program.cpp) | Medium |
 | 263 | [Ugly Number](https://leetcode.com//problems/ugly-number/) | [c++](src/UglyNumber/program.cpp) | Easy |
 | 264 | [Ugly Number II](https://leetcode.com//problems/ugly-number-ii/) | [c++](src/UglyNumberII/program.cpp) | Medium |
 | 268 | [Missing Number](https://leetcode.com//problems/missing-number/) | [c++](src/MissingNumber/program.cpp) | Medium |
