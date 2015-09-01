@@ -12,7 +12,6 @@ vector<int> singleNumber(vector<int>& nums)
         tmp = tmp >> 1;
     }
     tmp = 1 << i;
-    PrintToBinary(tmp);
     int a = 0;
     for (auto x : nums)
         if (x & tmp) a ^= x;
