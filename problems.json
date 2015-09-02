@@ -423,7 +423,9 @@
             "uri": "/problems/sqrtx/",
             "name": "Sqrt(x)",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "Sqrt(x)",
+            "solution_uri": "38455373"
         },
         "70": {
             "uri": "/problems/climbing-stairs/",
@@ -459,7 +461,8 @@
             "uri": "/problems/sort-colors/",
             "name": "Sort Colors",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": false,
+            "dir": "SortColors"
         },
         "76": {
             "uri": "/problems/minimum-window-substring/",
