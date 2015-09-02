@@ -305,7 +305,9 @@
             "uri": "/problems/powx-n/",
             "name": "Pow(x, n)",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "Pow(x,n)",
+            "solution_uri": "38452972"
         },
         "51": {
             "uri": "/problems/n-queens/",

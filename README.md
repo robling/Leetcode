@@ -13,6 +13,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com//problems/search-in-rotated-sorted-array/) | [c++](src/SearchInRotatedSortedArray/program.cpp) | Hard |
 | 36 | [Valid Sudoku](https://leetcode.com//problems/valid-sudoku/) | [c++](src/ValidSudoku/program.cpp) | Easy |
 | 37 | [Sudoku Solver](https://leetcode.com//problems/sudoku-solver/) | [c++](src/SudokuSolver/program.cpp) | Hard |
+| 50 | [Pow(x, n)](https://leetcode.com//problems/powx-n/) | [c++](src/Pow(x,n)/program.cpp) | Medium |
 | 65 | [Valid Number](https://leetcode.com//problems/valid-number/) | [c++](src/ValidNumber/program.cpp) | Hard |
 | 118 | [Pascal&#39;s Triangle](https://leetcode.com//problems/pascals-triangle/) | [c++](src/PascalTriangel/program.cpp) | Easy |
 | 135 | [Candy](https://leetcode.com//problems/candy/) | [c++](src/Candy/program.cpp) | Hard |
