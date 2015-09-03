@@ -986,7 +986,9 @@
             "uri": "/problems/find-peak-element/",
             "name": "Find Peak Element",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "FindPeakElement",
+            "solution_uri": "38604146"
         },
         "163": {
             "uri": "/problems/missing-ranges/",

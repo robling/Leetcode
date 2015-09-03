@@ -19,6 +19,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 136 | [Single Number](https://leetcode.com//problems/single-number/) | [c++](src/SingleNumber/program.cpp) | Medium |
 | 137 | [Single Number II](https://leetcode.com//problems/single-number-ii/) | [c++](src/SingleNumberII/program.cpp) | Medium |
 | 155 | [Min Stack](https://leetcode.com//problems/min-stack/) | [c++](src/MinStack/program.cpp) | Easy |
+| 162 | [Find Peak Element](https://leetcode.com//problems/find-peak-element/) | [c++](src/FindPeakElement/program.cpp) | Medium |
 | 166 | [Fraction to Recurring Decimal](https://leetcode.com//problems/fraction-to-recurring-decimal/) | [c++](src/FractiontoRecurringDecimal/program.cpp) | Medium |
 | 171 | [Excel Sheet Column Number](https://leetcode.com//problems/excel-sheet-column-number/) | [c++](src/ExcelSheetColumnNumber/program.cpp) | Easy |
 | 174 | [Dungeon Game](https://leetcode.com//problems/dungeon-game/) | [c++](src/DungeonGame/program.cpp) | Hard |
