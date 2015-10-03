@@ -1055,8 +1055,9 @@
             "uri": "/problems/factorial-trailing-zeroes/",
             "name": "Factorial Trailing Zeroes",
             "difficulty": "1",
-            "is_solved": false,
-            "dir": "FactorialTrailingZeroes"
+            "is_solved": true,
+            "dir": "FactorialTrailingZeroes",
+            "solution_uri": "41831186"
         },
         "173": {
             "uri": "/problems/binary-search-tree-iterator/",

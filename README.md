@@ -24,6 +24,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 162 | [Find Peak Element](https://leetcode.com//problems/find-peak-element/) | [c++](src/FindPeakElement/program.cpp) | Medium |
 | 166 | [Fraction to Recurring Decimal](https://leetcode.com//problems/fraction-to-recurring-decimal/) | [c++](src/FractiontoRecurringDecimal/program.cpp) | Medium |
 | 171 | [Excel Sheet Column Number](https://leetcode.com//problems/excel-sheet-column-number/) | [c++](src/ExcelSheetColumnNumber/program.cpp) | Easy |
+| 172 | [Factorial Trailing Zeroes](https://leetcode.com//problems/factorial-trailing-zeroes/) | [c++](src/FactorialTrailingZeroes/program.cpp) | Easy |
 | 174 | [Dungeon Game](https://leetcode.com//problems/dungeon-game/) | [c++](src/DungeonGame/program.cpp) | Hard |
 | 179 | [Largest Number](https://leetcode.com//problems/largest-number/) | [c++](src/LargestNumber/program.cpp) | Medium |
 | 187 | [Repeated DNA Sequences](https://leetcode.com//problems/repeated-dna-sequences/) | [c++](src/RepeatedDNA/program.cpp) | Medium |
