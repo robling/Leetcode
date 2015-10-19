@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs"
+	},
+	"files": [
+		"helper.js",
+		"typings/node/node.d.ts"
+	]
+}
