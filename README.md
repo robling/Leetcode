@@ -53,6 +53,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 264 | [Ugly Number II](https://leetcode.com//problems/ugly-number-ii/) | [c++](src/UglyNumberII/program.cpp) | Medium |
 | 268 | [Missing Number](https://leetcode.com//problems/missing-number/) | [c++](src/MissingNumber/program.cpp) | Medium |
 | 273 | [Integer to English Words](https://leetcode.com//problems/integer-to-english-words/) | [c++](src/IntegertoEnglishWords/program.cpp) | Medium |
+| 274 | [H-Index](https://leetcode.com//problems/h-index/) | [c++](src/H-Index/program.cpp) | Medium |
 
 
 

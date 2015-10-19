@@ -1703,7 +1703,7 @@
             "uri": "/problems/h-index/",
             "name": "H-Index",
             "difficulty": 2,
-            "is_solved": false,
+            "is_solved": true,
             "dir": "H-Index"
         },
         "275": {
