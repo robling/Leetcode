@@ -115,9 +115,11 @@ function parser_detail(str) {
         let rst = str.match(reg)[0];
         return rst.replace(/^>/, '');
     };
+    let diffStr = {"Hard" : 3, "Medium" : 2, "Easy" : 1};
     let get_difficulty =  function(){
-        let reg = /[1-3](?='>)/;
-        return str.match(reg)[0];
+        let reg = /Hard|Medium|Easy(?=<\/td)/;
+        let s = str.match(reg)[0];
+        return diffStr[s];
     };
     let data = {};
     data.uri = get_uri();
