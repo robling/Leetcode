@@ -48,4 +48,14 @@ void PrintToBinary(_T num)
 	cout << endl;
 }
 
+template<typename _T>
+std::ostream& operator<<(std::ostream& os, vector<_T> src)
+{
+    for (auto& s : src)
+    {
+        os << s << ", ";
+    }
+    return os;
+}
+
 #endif //_PRE_H_
