@@ -1711,7 +1711,9 @@
             "uri": "/problems/h-index-ii/",
             "name": "H-Index II",
             "difficulty": 2,
-            "is_solved": false
+            "is_solved": true,
+            "dir": "H-IndexII",
+            "solution_uri": "43531599"
         },
         "276": {
             "uri": "/problems/paint-fence/",
