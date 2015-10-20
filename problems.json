@@ -461,8 +461,9 @@
             "uri": "/problems/sort-colors/",
             "name": "Sort Colors",
             "difficulty": "2",
-            "is_solved": false,
-            "dir": "SortColors"
+            "is_solved": true,
+            "dir": "SortColors",
+            "solution_uri": "43528926"
         },
         "76": {
             "uri": "/problems/minimum-window-substring/",

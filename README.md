@@ -16,6 +16,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 50 | [Pow(x, n)](https://leetcode.com//problems/powx-n/) | [c++](src/Pow(x,n)/program.cpp) | Medium |
 | 65 | [Valid Number](https://leetcode.com//problems/valid-number/) | [c++](src/ValidNumber/program.cpp) | Hard |
 | 69 | [Sqrt(x)](https://leetcode.com//problems/sqrtx/) | [c++](src/Sqrt(x)/program.cpp) | Medium |
+| 75 | [Sort Colors](https://leetcode.com//problems/sort-colors/) | [c++](src/SortColors/program.cpp) | Medium |
 | 118 | [Pascal&#39;s Triangle](https://leetcode.com//problems/pascals-triangle/) | [c++](src/PascalTriangel/program.cpp) | Easy |
 | 135 | [Candy](https://leetcode.com//problems/candy/) | [c++](src/Candy/program.cpp) | Hard |
 | 136 | [Single Number](https://leetcode.com//problems/single-number/) | [c++](src/SingleNumber/program.cpp) | Medium |
