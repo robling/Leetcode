@@ -1496,7 +1496,8 @@
             "uri": "/problems/different-ways-to-add-parentheses/",
             "name": "Different Ways to Add Parentheses",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "DifferentWaystoAddParentheses"
         },
         "242": {
             "uri": "/problems/valid-anagram/",

@@ -1,6 +1,6 @@
 ##README
 
-This repo contains some of my crude solutions to Leetcode/QJ.
+This repo contains some of my crude solutions to Leetcode/OJ.
 
 All solutions can be compiled by MSVS and run separately with few testing cases.
 
@@ -48,6 +48,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com//problems/lowest-common-ancestor-of-a-binary-tree/) | [c++](src/LowestCommonAncestorofaBinaryTree/program.cpp) | Medium |
 | 238 | [Product of Array Except Self](https://leetcode.com//problems/product-of-array-except-self/) | [c++](src/ProductExceptSelf/program.cpp) | Medium |
 | 239 | [Sliding Window Maximum](https://leetcode.com//problems/sliding-window-maximum/) | [c++](src/SlidingWindowMax/program.cpp) | Hard |
+| 241 | [Different Ways to Add Parentheses](https://leetcode.com//problems/different-ways-to-add-parentheses/) | [c++](src/DifferentWaystoAddParentheses/program.cpp) | Medium |
 | 242 | [Valid Anagram](https://leetcode.com//problems/valid-anagram/) | [c++](src/ValidAnagram/program.cpp) | Easy |
 | 260 | [Single Number III](https://leetcode.com//problems/single-number-iii/) | [c++](src/SingleNumberIII/program.cpp) | Medium |
 | 263 | [Ugly Number](https://leetcode.com//problems/ugly-number/) | [c++](src/UglyNumber/program.cpp) | Easy |

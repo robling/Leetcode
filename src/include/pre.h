@@ -2,6 +2,8 @@
 #define _PRE_H_
 #include <iostream>
 
+#include <type_traits>
+
 #include <string>
 using std::string;
 using std::cin;
