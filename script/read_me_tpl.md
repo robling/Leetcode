@@ -1,6 +1,6 @@
 ##README
 
-This repo contains some of my crude solutions to Leetcode/QJ.
+This repo contains some of my crude solutions to Leetcode/OJ.
 
 All solutions can be compiled by MSVS and run separately with few testing cases.
 
