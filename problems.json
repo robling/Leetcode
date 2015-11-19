@@ -1860,7 +1860,9 @@
             "uri": "/problems/bulls-and-cows/",
             "name": "Bulls and Cows",
             "difficulty": 1,
-            "is_solved": false
+            "is_solved": true,
+            "dir": "BullsandCows",
+            "solution_uri": "46368080"
         },
         "300": {
             "uri": "/problems/longest-increasing-subsequence/",
