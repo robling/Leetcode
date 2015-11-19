@@ -58,6 +58,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 273 | [Integer to English Words](https://leetcode.com//problems/integer-to-english-words/) | [c++](src/IntegertoEnglishWords/program.cpp) | Medium |
 | 274 | [H-Index](https://leetcode.com//problems/h-index/) | [c++](src/H-Index/program.cpp) | Medium |
 | 275 | [H-Index II](https://leetcode.com//problems/h-index-ii/) | [c++](src/H-IndexII/program.cpp) | Medium |
+| 304 | [Range Sum Query 2D - Immutable](https://leetcode.com//problems/range-sum-query-2d-immutable/) | [c++](src/RangeSumQuery2D-Immutable/program.cpp) | Medium |
 
 
 
