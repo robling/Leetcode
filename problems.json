@@ -1490,7 +1490,9 @@
             "uri": "/problems/search-a-2d-matrix-ii/",
             "name": "Search a 2D Matrix II",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "Searcha2DMatrixII",
+            "solution_uri": "46347198"
         },
         "241": {
             "uri": "/problems/different-ways-to-add-parentheses/",
