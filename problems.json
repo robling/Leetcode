@@ -1740,7 +1740,9 @@
             "uri": "/problems/perfect-squares/",
             "name": "Perfect Squares",
             "difficulty": 2,
-            "is_solved": false
+            "is_solved": true,
+            "dir": "PerfectSquares",
+            "solution_uri": "47484235"
         },
         "280": {
             "uri": "/problems/wiggle-sort/",
