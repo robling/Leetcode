@@ -1734,7 +1734,9 @@
             "uri": "/problems/first-bad-version/",
             "name": "First Bad Version",
             "difficulty": 1,
-            "is_solved": false
+            "is_solved": true,
+            "dir": "FirstBadVersion",
+            "solution_uri": "47486033"
         },
         "279": {
             "uri": "/problems/perfect-squares/",
