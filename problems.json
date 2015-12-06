@@ -1792,7 +1792,9 @@
             "uri": "/problems/find-the-duplicate-number/",
             "name": "Find the Duplicate Number",
             "difficulty": 3,
-            "is_solved": false
+            "is_solved": true,
+            "dir": "FindtheDuplicateNumber",
+            "solution_uri": "47558305"
         },
         "288": {
             "uri": "/problems/unique-word-abbreviation/",
