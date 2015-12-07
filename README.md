@@ -8,6 +8,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 
 |  #  | Title | Solution | Difficulty |
 | --- | ----- | -------- | ---------- |
+| 2 | [Add Two Numbers](https://leetcode.com//problems/add-two-numbers/) | [c++](src/AddTwoNumbers/program.cpp) | Medium |
 | 8 | [String to Integer (atoi)](https://leetcode.com//problems/string-to-integer-atoi/) | [c++](src/atoi/program.cpp) | Easy |
 | 32 | [Longest Valid Parentheses](https://leetcode.com//problems/longest-valid-parentheses/) | [c++](src/LongestValidParentheses/program.cpp) | Hard |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com//problems/search-in-rotated-sorted-array/) | [c++](src/SearchInRotatedSortedArray/program.cpp) | Hard |

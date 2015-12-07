@@ -12,7 +12,9 @@
             "uri": "/problems/add-two-numbers/",
             "name": "Add Two Numbers",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "AddTwoNumbers",
+            "solution_uri": "47618500"
         },
         "3": {
             "uri": "/problems/longest-substring-without-repeating-characters/",
