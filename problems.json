@@ -1914,7 +1914,9 @@
             "uri": "/problems/additive-number/",
             "name": "Additive Number",
             "difficulty": 2,
-            "is_solved": false
+            "is_solved": true,
+            "dir": "AdditiveNumber",
+            "solution_uri": "47774596"
         },
         "307": {
             "uri": "/problems/range-sum-query-mutable/",
