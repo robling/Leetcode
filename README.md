@@ -65,6 +65,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 299 | [Bulls and Cows](https://leetcode.com//problems/bulls-and-cows/) | [c++](src/BullsandCows/program.cpp) | Easy |
 | 304 | [Range Sum Query 2D - Immutable](https://leetcode.com//problems/range-sum-query-2d-immutable/) | [c++](src/RangeSumQuery2D-Immutable/program.cpp) | Medium |
 | 306 | [Additive Number](https://leetcode.com//problems/additive-number/) | [c++](src/AdditiveNumber/program.cpp) | Medium |
+| 307 | [Range Sum Query - Mutable](https://leetcode.com//problems/range-sum-query-mutable/) | [c++](src/RangeSumQuery-Mutable/program.cpp) | Medium |
 
 
 

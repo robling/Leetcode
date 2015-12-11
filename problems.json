@@ -1922,7 +1922,9 @@
             "uri": "/problems/range-sum-query-mutable/",
             "name": "Range Sum Query - Mutable",
             "difficulty": 2,
-            "is_solved": false
+            "is_solved": true,
+            "dir": "RangeSumQuery-Mutable",
+            "solution_uri": "47907239"
         }
     }
 }
