@@ -61,6 +61,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 275 | [H-Index II](https://leetcode.com//problems/h-index-ii/) | [c++](src/H-IndexII/program.cpp) | Medium |
 | 278 | [First Bad Version](https://leetcode.com//problems/first-bad-version/) | [c++](src/FirstBadVersion/program.cpp) | Easy |
 | 279 | [Perfect Squares](https://leetcode.com//problems/perfect-squares/) | [c++](src/PerfectSquares/program.cpp) | Medium |
+| 283 | [Move Zeroes](https://leetcode.com//problems/move-zeroes/) | [c++](src/MoveZeroes/program.cpp) | Easy |
 | 287 | [Find the Duplicate Number](https://leetcode.com//problems/find-the-duplicate-number/) | [c++](src/FindtheDuplicateNumber/program.cpp) | Hard |
 | 299 | [Bulls and Cows](https://leetcode.com//problems/bulls-and-cows/) | [c++](src/BullsandCows/program.cpp) | Easy |
 | 304 | [Range Sum Query 2D - Immutable](https://leetcode.com//problems/range-sum-query-2d-immutable/) | [c++](src/RangeSumQuery2D-Immutable/program.cpp) | Medium |

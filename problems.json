@@ -1770,7 +1770,9 @@
             "uri": "/problems/move-zeroes/",
             "name": "Move Zeroes",
             "difficulty": 1,
-            "is_solved": false
+            "is_solved": true,
+            "dir": "MoveZeroes",
+            "solution_uri": "48005794"
         },
         "284": {
             "uri": "/problems/peeking-iterator/",
