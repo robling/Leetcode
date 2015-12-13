@@ -1,1 +1,0 @@
-del *.exe *.obj /f /s /a
