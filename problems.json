@@ -1878,7 +1878,9 @@
             "uri": "/problems/longest-increasing-subsequence/",
             "name": "Longest Increasing Subsequence",
             "difficulty": 2,
-            "is_solved": false
+            "is_solved": true,
+            "dir": "LongestIncreasingSubsequence",
+            "solution_uri": "48366097"
         },
         "301": {
             "uri": "/problems/remove-invalid-parentheses/",
