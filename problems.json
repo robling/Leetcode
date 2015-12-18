@@ -1604,7 +1604,9 @@
             "uri": "/problems/add-digits/",
             "name": "Add Digits",
             "difficulty": "1",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "AddDigits",
+            "solution_uri": "48367020"
         },
         "259": {
             "uri": "/problems/3sum-smaller/",
