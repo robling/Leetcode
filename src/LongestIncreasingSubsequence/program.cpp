@@ -8,8 +8,7 @@ int lengthOfLIS(vector<int>& nums)
     cout << minEnd << endl;
     for (int i = 1; i < nums.size(); i++)
     {
-        auto upper = std::upper_bound(minEnd.begin(), minEnd.end(), nums[i], std::less_equal<int>());
-         //if (*(upper - 1) >= nums[i]) continue;
+        auto upper = std::lower_bound(minEnd.begin(), minEnd.end(), nums[i]);
         if (upper == minEnd.end()) {
             minEnd.push_back(nums[i]);
         }
@@ -24,8 +23,8 @@ int lengthOfLIS(vector<int>& nums)
 int main()
 {
     //vector<int> test = {10,9,2,5,3,7,101,18};
-    //vector<int> test = {3,5,6,2,5,4,19,5,6,7,12};
-    vector<int> test = {2, 2};
+    vector<int> test = {3,5,6,2,5,4,19,5,6,7,12};
+    //vector<int> test = {2, 2};
     cout << lengthOfLIS(test) << endl;
     return 0;
 }
