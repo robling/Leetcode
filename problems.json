@@ -1830,7 +1830,9 @@
             "uri": "/problems/nim-game/",
             "name": "Nim Game",
             "difficulty": 1,
-            "is_solved": false
+            "is_solved": true,
+            "dir": "NimGame",
+            "solution_uri": "48395558"
         },
         "293": {
             "uri": "/problems/flip-game/",
