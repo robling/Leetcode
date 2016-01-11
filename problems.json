@@ -1780,7 +1780,9 @@
             "uri": "/problems/peeking-iterator/",
             "name": "Peeking Iterator",
             "difficulty": 2,
-            "is_solved": false
+            "is_solved": true,
+            "dir": "PeekingIterator",
+            "solution_uri": "50336185"
         },
         "285": {
             "uri": "/problems/inorder-successor-in-bst/",
