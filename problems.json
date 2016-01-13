@@ -1452,7 +1452,9 @@
             "uri": "/problems/palindrome-linked-list/",
             "name": "Palindrome Linked List",
             "difficulty": "1",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "PalindromeLinkedList",
+            "solution_uri": "50573950"
         },
         "235": {
             "uri": "/problems/lowest-common-ancestor-of-a-binary-search-tree/",
