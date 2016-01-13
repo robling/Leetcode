@@ -1424,7 +1424,9 @@
             "uri": "/problems/kth-smallest-element-in-a-bst/",
             "name": "Kth Smallest Element in a BST",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "KthSmallestElementinaBST",
+            "solution_uri": "50559218"
         },
         "231": {
             "uri": "/problems/power-of-two/",

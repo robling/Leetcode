@@ -43,6 +43,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 223 | [Rectangle Area](https://leetcode.com//problems/rectangle-area/) | [c++](src/RectangleArea/program.cpp) | Easy |
 | 224 | [Basic Calculator](https://leetcode.com//problems/basic-calculator/) | [c++](src/BasicCalculator/program.cpp) | Medium |
 | 227 | [Basic Calculator II](https://leetcode.com//problems/basic-calculator-ii/) | [c++](src/BasicCalculator2/program.cpp) | Medium |
+| 230 | [Kth Smallest Element in a BST](https://leetcode.com//problems/kth-smallest-element-in-a-bst/) | [c++](src/KthSmallestElementinaBST/program.cpp) | Medium |
 | 231 | [Power of Two](https://leetcode.com//problems/power-of-two/) | [c++](src/PowerofTwo/program.cpp) | Easy |
 | 233 | [Number of Digit One](https://leetcode.com//problems/number-of-digit-one/) | [c++](src/NumberofDigitOne/program.cpp) | Medium |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com//problems/lowest-common-ancestor-of-a-binary-search-tree/) | [c++](src/LowestCommonAncestorofaBinarySearchTree/program.cpp) | Easy |
