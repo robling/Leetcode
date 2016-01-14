@@ -41,6 +41,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 205 | [Isomorphic Strings](https://leetcode.com//problems/isomorphic-strings/) | [c++](src/IsomorphicStrings/program.cpp) | Easy |
 | 214 | [Shortest Palindrome](https://leetcode.com//problems/shortest-palindrome/) | [c++](src/ShortestPalindrome/program.cpp) | Hard |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com//problems/kth-largest-element-in-an-array/) | [c++](src/KthLargestElem/program.cpp) | Medium |
+| 216 | [Combination Sum III](https://leetcode.com//problems/combination-sum-iii/) | [c++](src/CombinationSumIII/program.cpp) | Medium |
 | 217 | [Contains Duplicate](https://leetcode.com//problems/contains-duplicate/) | [c++](src/ContainsDuplicate/program.cpp) | Easy |
 | 219 | [Contains Duplicate II](https://leetcode.com//problems/contains-duplicate-ii/) | [c++](src/ContainsDuplicateII/program.cpp) | Easy |
 | 220 | [Contains Duplicate III](https://leetcode.com//problems/contains-duplicate-iii/) | [c++](src/ContainsDuplicateIII/program.cpp) | Medium |

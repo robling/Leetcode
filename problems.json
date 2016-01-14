@@ -1340,7 +1340,9 @@
             "uri": "/problems/combination-sum-iii/",
             "name": "Combination Sum III",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "CombinationSumIII",
+            "solution_uri": "50681070"
         },
         "217": {
             "uri": "/problems/contains-duplicate/",
