@@ -14,6 +14,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com//problems/search-in-rotated-sorted-array/) | [c++](src/SearchInRotatedSortedArray/program.cpp) | Hard |
 | 36 | [Valid Sudoku](https://leetcode.com//problems/valid-sudoku/) | [c++](src/ValidSudoku/program.cpp) | Easy |
 | 37 | [Sudoku Solver](https://leetcode.com//problems/sudoku-solver/) | [c++](src/SudokuSolver/program.cpp) | Hard |
+| 39 | [Combination Sum](https://leetcode.com//problems/combination-sum/) | [c++](src/CombinationSum/program.cpp) | Medium |
 | 50 | [Pow(x, n)](https://leetcode.com//problems/powx-n/) | [c++](src/Pow(x,n)/program.cpp) | Medium |
 | 65 | [Valid Number](https://leetcode.com//problems/valid-number/) | [c++](src/ValidNumber/program.cpp) | Hard |
 | 69 | [Sqrt(x)](https://leetcode.com//problems/sqrtx/) | [c++](src/Sqrt(x)/program.cpp) | Medium |

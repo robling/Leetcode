@@ -241,7 +241,9 @@
             "uri": "/problems/combination-sum/",
             "name": "Combination Sum",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "CombinationSum",
+            "solution_uri": "50673467"
         },
         "40": {
             "uri": "/problems/combination-sum-ii/",
