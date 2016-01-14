@@ -1366,7 +1366,8 @@
             "uri": "/problems/maximal-square/",
             "name": "Maximal Square",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "MaximalSquare"
         },
         "222": {
             "uri": "/problems/count-complete-tree-nodes/",
