@@ -249,7 +249,9 @@
             "uri": "/problems/combination-sum-ii/",
             "name": "Combination Sum II",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "CombinationSumII",
+            "solution_uri": "50680347"
         },
         "41": {
             "uri": "/problems/first-missing-positive/",
