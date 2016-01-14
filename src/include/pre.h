@@ -60,5 +60,10 @@ std::ostream& operator<<(std::ostream& os, vector<_T> src)
     }
     return os;
 }
-
+template<typename _T1, typename _T2>
+std::ostream& operator<<(std::ostream& os, std::pair<_T1, _T2> src)
+{
+    os << "(" << src.first << ", " << src.second << ")";
+    return os;
+}
 #endif //_PRE_H_

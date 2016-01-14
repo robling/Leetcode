@@ -1342,7 +1342,9 @@
             "uri": "/problems/contains-duplicate/",
             "name": "Contains Duplicate",
             "difficulty": "1",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "ContainsDuplicate",
+            "solution_uri": "50646855"
         },
         "218": {
             "uri": "/problems/the-skyline-problem/",
@@ -1354,13 +1356,17 @@
             "uri": "/problems/contains-duplicate-ii/",
             "name": "Contains Duplicate II",
             "difficulty": "1",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "ContainsDuplicateII",
+            "solution_uri": "50652481"
         },
         "220": {
             "uri": "/problems/contains-duplicate-iii/",
             "name": "Contains Duplicate III",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "ContainsDuplicateIII",
+            "solution_uri": "50657558"
         },
         "221": {
             "uri": "/problems/maximal-square/",
