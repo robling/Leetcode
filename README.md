@@ -39,6 +39,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 201 | [Bitwise AND of Numbers Range](https://leetcode.com//problems/bitwise-and-of-numbers-range/) | [c++](src/rangebitwiseAnd/program.cpp) | Medium |
 | 204 | [Count Primes](https://leetcode.com//problems/count-primes/) | [c++](src/countprime/program.cpp) | Easy |
 | 205 | [Isomorphic Strings](https://leetcode.com//problems/isomorphic-strings/) | [c++](src/IsomorphicStrings/program.cpp) | Easy |
+| 213 | [House Robber II](https://leetcode.com//problems/house-robber-ii/) | [c++](src/HouseRobberII/program.cpp) | Medium |
 | 214 | [Shortest Palindrome](https://leetcode.com//problems/shortest-palindrome/) | [c++](src/ShortestPalindrome/program.cpp) | Hard |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com//problems/kth-largest-element-in-an-array/) | [c++](src/KthLargestElem/program.cpp) | Medium |
 | 216 | [Combination Sum III](https://leetcode.com//problems/combination-sum-iii/) | [c++](src/CombinationSumIII/program.cpp) | Medium |

@@ -1320,7 +1320,9 @@
             "uri": "/problems/house-robber-ii/",
             "name": "House Robber II",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "HouseRobberII",
+            "solution_uri": "50765820"
         },
         "214": {
             "uri": "/problems/shortest-palindrome/",
