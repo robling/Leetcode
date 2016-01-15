@@ -5,6 +5,8 @@ let fs = require('fs');
 let path = require('path');
 let request = require('sync-request');
 let swig = require('swig');
+let execSync = require('child_process').execSync;
+let readlineSync = require('readline-sync');
 
 const repo_root_path = path.resolve(__dirname, '../');
 const list_data_file = path.resolve(repo_root_path, './problems.json');
@@ -70,9 +72,9 @@ program
         data_write_back(data);
     });
 program
-    .command('solve <problem_num> [solution_code]')
+    .command('solve <problem_num> [solution_code] [auto_git]')
     .description('add solving infomations to specific problems with (or not) solution uri code')
-    .action(function(problem_num, solution_code){
+    .action(function(problem_num, solution_code, auto_git){
         console.log('Problem Number is : %j', problem_num);
         let data = load_data();
         data.problems[problem_num].is_solved = true;
@@ -81,6 +83,15 @@ program
         }
         data_write_back(data);
         make_readme_file();
+        if (auto_git === 'autogit') {
+            execSync('git status', { stdio: 'inherit' });
+            if (readlineSync.keyInYN('Do you want auto-commit?')) {
+                execSync('git add .', { stdio: 'inherit' });
+                let commit_body = problem_num + ' ' + data.problems[problem_num].name;
+                execSync('git commit -m\"' + commit_body + '\"', { stdio: 'inherit' });
+                console.log(commit_body);
+            }            
+        }
     });
 program
     .command('list')
