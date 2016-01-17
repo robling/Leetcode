@@ -2019,7 +2019,9 @@
             "uri": "/problems/maximum-product-of-word-lengths/",
             "name": "Maximum Product of Word Lengths",
             "difficulty": 2,
-            "is_solved": false
+            "is_solved": true,
+            "dir": "MaximumProductofWordLengths",
+            "solution_uri": "50925620"
         },
         "319": {
             "uri": "/problems/bulb-switcher/",
