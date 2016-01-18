@@ -1839,7 +1839,9 @@
             "uri": "/problems/word-pattern/",
             "name": "Word Pattern",
             "difficulty": 1,
-            "is_solved": false
+            "is_solved": true,
+            "dir": "WordPattern",
+            "solution_uri": "51036330"
         },
         "291": {
             "uri": "/problems/word-pattern-ii/",
