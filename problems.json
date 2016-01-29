@@ -1617,7 +1617,9 @@
             "uri": "/problems/binary-tree-paths/",
             "name": "Binary Tree Paths",
             "difficulty": "1",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "BinaryTreePaths",
+            "solution_uri": "52122260"
         },
         "258": {
             "uri": "/problems/add-digits/",

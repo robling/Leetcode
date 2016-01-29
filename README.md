@@ -62,6 +62,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 240 | [Search a 2D Matrix II](https://leetcode.com//problems/search-a-2d-matrix-ii/) | [c++](src/Searcha2DMatrixII/program.cpp) | Medium |
 | 241 | [Different Ways to Add Parentheses](https://leetcode.com//problems/different-ways-to-add-parentheses/) | [c++](src/DifferentWaystoAddParentheses/program.cpp) | Medium |
 | 242 | [Valid Anagram](https://leetcode.com//problems/valid-anagram/) | [c++](src/ValidAnagram/program.cpp) | Easy |
+| 257 | [Binary Tree Paths](https://leetcode.com//problems/binary-tree-paths/) | [c++](src/BinaryTreePaths/program.cpp) | Easy |
 | 258 | [Add Digits](https://leetcode.com//problems/add-digits/) | [c++](src/AddDigits/program.cpp) | Easy |
 | 260 | [Single Number III](https://leetcode.com//problems/single-number-iii/) | [c++](src/SingleNumberIII/program.cpp) | Medium |
 | 263 | [Ugly Number](https://leetcode.com//problems/ugly-number/) | [c++](src/UglyNumber/program.cpp) | Easy |
