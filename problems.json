@@ -1454,7 +1454,9 @@
             "uri": "/problems/implement-queue-using-stacks/",
             "name": "Implement Queue using Stacks",
             "difficulty": "1",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "ImplementQueueusingStacks",
+            "solution_uri": "52168982"
         },
         "233": {
             "uri": "/problems/number-of-digit-one/",
