@@ -51,6 +51,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 223 | [Rectangle Area](https://leetcode.com//problems/rectangle-area/) | [c++](src/RectangleArea/program.cpp) | Easy |
 | 224 | [Basic Calculator](https://leetcode.com//problems/basic-calculator/) | [c++](src/BasicCalculator/program.cpp) | Medium |
 | 227 | [Basic Calculator II](https://leetcode.com//problems/basic-calculator-ii/) | [c++](src/BasicCalculator2/program.cpp) | Medium |
+| 229 | [Majority Element II](https://leetcode.com//problems/majority-element-ii/) | [c++](src/MajorityElementII/program.cpp) | Medium |
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com//problems/kth-smallest-element-in-a-bst/) | [c++](src/KthSmallestElementinaBST/program.cpp) | Medium |
 | 231 | [Power of Two](https://leetcode.com//problems/power-of-two/) | [c++](src/PowerofTwo/program.cpp) | Easy |
 | 232 | [Implement Queue using Stacks](https://leetcode.com//problems/implement-queue-using-stacks/) | [c++](src/ImplementQueueusingStacks/program.cpp) | Easy |

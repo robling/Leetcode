@@ -1433,7 +1433,9 @@
             "uri": "/problems/majority-element-ii/",
             "name": "Majority Element II",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "MajorityElementII",
+            "solution_uri": "52286112"
         },
         "230": {
             "uri": "/problems/kth-smallest-element-in-a-bst/",
