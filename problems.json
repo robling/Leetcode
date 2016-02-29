@@ -2017,7 +2017,9 @@
             "uri": "/problems/remove-duplicate-letters/",
             "name": "Remove Duplicate Letters",
             "difficulty": 2,
-            "is_solved": false
+            "is_solved": true,
+            "dir": "RemoveDuplicateLetters",
+            "solution_uri": "54882137"
         },
         "317": {
             "uri": "/problems/shortest-distance-from-all-buildings/",
