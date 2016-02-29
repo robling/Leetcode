@@ -1839,7 +1839,9 @@
             "uri": "/problems/game-of-life/",
             "name": "Game of Life",
             "difficulty": 2,
-            "is_solved": false
+            "is_solved": true,
+            "dir": "GameofLife",
+            "solution_uri": "54839737"
         },
         "290": {
             "uri": "/problems/word-pattern/",

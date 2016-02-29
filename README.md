@@ -78,6 +78,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 283 | [Move Zeroes](https://leetcode.com//problems/move-zeroes/) | [c++](src/MoveZeroes/program.cpp) | Easy |
 | 284 | [Peeking Iterator](https://leetcode.com//problems/peeking-iterator/) | [c++](src/PeekingIterator/program.cpp) | Medium |
 | 287 | [Find the Duplicate Number](https://leetcode.com//problems/find-the-duplicate-number/) | [c++](src/FindtheDuplicateNumber/program.cpp) | Hard |
+| 289 | [Game of Life](https://leetcode.com//problems/game-of-life/) | [c++](src/GameofLife/program.cpp) | Medium |
 | 290 | [Word Pattern](https://leetcode.com//problems/word-pattern/) | [c++](src/WordPattern/program.cpp) | Easy |
 | 292 | [Nim Game](https://leetcode.com//problems/nim-game/) | [c++](src/NimGame/program.cpp) | Easy |
 | 299 | [Bulls and Cows](https://leetcode.com//problems/bulls-and-cows/) | [c++](src/BullsandCows/program.cpp) | Easy |
