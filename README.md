@@ -81,6 +81,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 289 | [Game of Life](https://leetcode.com//problems/game-of-life/) | [c++](src/GameofLife/program.cpp) | Medium |
 | 290 | [Word Pattern](https://leetcode.com//problems/word-pattern/) | [c++](src/WordPattern/program.cpp) | Easy |
 | 292 | [Nim Game](https://leetcode.com//problems/nim-game/) | [c++](src/NimGame/program.cpp) | Easy |
+| 295 | [Find Median from Data Stream](https://leetcode.com//problems/find-median-from-data-stream/) | [c++](src/FindMedianfromDataStream/program.cpp) | Hard |
 | 299 | [Bulls and Cows](https://leetcode.com//problems/bulls-and-cows/) | [c++](src/BullsandCows/program.cpp) | Easy |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com//problems/longest-increasing-subsequence/) | [c++](src/LongestIncreasingSubsequence/program.cpp) | Medium |
 | 304 | [Range Sum Query 2D - Immutable](https://leetcode.com//problems/range-sum-query-2d-immutable/) | [c++](src/RangeSumQuery2D-Immutable/program.cpp) | Medium |

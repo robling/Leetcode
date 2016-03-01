@@ -1881,7 +1881,9 @@
             "uri": "/problems/find-median-from-data-stream/",
             "name": "Find Median from Data Stream",
             "difficulty": 3,
-            "is_solved": false
+            "is_solved": true,
+            "dir": "FindMedianfromDataStream",
+            "solution_uri": "54998522"
         },
         "296": {
             "uri": "/problems/best-meeting-point/",
