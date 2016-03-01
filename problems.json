@@ -1414,7 +1414,9 @@
             "uri": "/problems/invert-binary-tree/",
             "name": "Invert Binary Tree",
             "difficulty": "1",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "InvertBinaryTree",
+            "solution_uri": "54999817"
         },
         "227": {
             "uri": "/problems/basic-calculator-ii/",
