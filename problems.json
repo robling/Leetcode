@@ -2003,7 +2003,9 @@
             "uri": "/problems/super-ugly-number/",
             "name": "Super Ugly Number",
             "difficulty": 2,
-            "is_solved": false
+            "is_solved": true,
+            "dir": "SuperUglyNumber",
+            "solution_uri": "55083687"
         },
         "314": {
             "uri": "/problems/binary-tree-vertical-order-traversal/",
