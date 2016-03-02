@@ -8,6 +8,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 
 |  #  | Title | Solution | Difficulty |
 | --- | ----- | -------- | ---------- |
+| 1 | [Two Sum](https://leetcode.com//problems/two-sum/) | [c++](src/TwoSum/program.cpp) | Medium |
 | 2 | [Add Two Numbers](https://leetcode.com//problems/add-two-numbers/) | [c++](src/AddTwoNumbers/program.cpp) | Medium |
 | 8 | [String to Integer (atoi)](https://leetcode.com//problems/string-to-integer-atoi/) | [c++](src/atoi/program.cpp) | Easy |
 | 32 | [Longest Valid Parentheses](https://leetcode.com//problems/longest-valid-parentheses/) | [c++](src/LongestValidParentheses/program.cpp) | Hard |

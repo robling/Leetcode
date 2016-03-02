@@ -6,7 +6,9 @@
             "uri": "/problems/two-sum/",
             "name": "Two Sum",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "TwoSum",
+            "solution_uri": "55104671"
         },
         "2": {
             "uri": "/problems/add-two-numbers/",
