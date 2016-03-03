@@ -22,7 +22,9 @@
             "uri": "/problems/longest-substring-without-repeating-characters/",
             "name": "Longest Substring Without Repeating Characters",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "LongestSubstringWithoutRepeatingCharacters",
+            "solution_uri": "55185085"
         },
         "4": {
             "uri": "/problems/median-of-two-sorted-arrays/",
