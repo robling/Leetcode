@@ -42,7 +42,9 @@
             "uri": "/problems/zigzag-conversion/",
             "name": "ZigZag Conversion",
             "difficulty": "1",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "ZigZagConversion",
+            "solution_uri": "55704511"
         },
         "7": {
             "uri": "/problems/reverse-integer/",

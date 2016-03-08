@@ -11,6 +11,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 1 | [Two Sum](https://leetcode.com//problems/two-sum/) | [c++](src/TwoSum/program.cpp) | Medium |
 | 2 | [Add Two Numbers](https://leetcode.com//problems/add-two-numbers/) | [c++](src/AddTwoNumbers/program.cpp) | Medium |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com//problems/longest-substring-without-repeating-characters/) | [c++](src/LongestSubstringWithoutRepeatingCharacters/program.cpp) | Medium |
+| 6 | [ZigZag Conversion](https://leetcode.com//problems/zigzag-conversion/) | [c++](src/ZigZagConversion/program.cpp) | Easy |
 | 7 | [Reverse Integer](https://leetcode.com//problems/reverse-integer/) | [c++](src/ReverseInteger/program.cpp) | Easy |
 | 8 | [String to Integer (atoi)](https://leetcode.com//problems/string-to-integer-atoi/) | [c++](src/atoi/program.cpp) | Easy |
 | 32 | [Longest Valid Parentheses](https://leetcode.com//problems/longest-valid-parentheses/) | [c++](src/LongestValidParentheses/program.cpp) | Hard |
