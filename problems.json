@@ -48,7 +48,9 @@
             "uri": "/problems/reverse-integer/",
             "name": "Reverse Integer",
             "difficulty": "1",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "ReverseInteger",
+            "solution_uri": "55692077"
         },
         "8": {
             "uri": "/problems/string-to-integer-atoi/",
