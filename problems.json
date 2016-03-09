@@ -2075,7 +2075,9 @@
             "uri": "/problems/coin-change/",
             "name": "Coin Change",
             "difficulty": 2,
-            "is_solved": false
+            "is_solved": true,
+            "dir": "CoinChange",
+            "solution_uri": "55818034"
         },
         "323": {
             "uri": "/problems/number-of-connected-components-in-an-undirected-graph/",

@@ -97,6 +97,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 316 | [Remove Duplicate Letters](https://leetcode.com//problems/remove-duplicate-letters/) | [c++](src/RemoveDuplicateLetters/program.cpp) | Medium |
 | 318 | [Maximum Product of Word Lengths](https://leetcode.com//problems/maximum-product-of-word-lengths/) | [c++](src/MaximumProductofWordLengths/program.cpp) | Medium |
 | 319 | [Bulb Switcher](https://leetcode.com//problems/bulb-switcher/) | [c++](src/BulbSwitcher/program.cpp) | Medium |
+| 322 | [Coin Change](https://leetcode.com//problems/coin-change/) | [c++](src/CoinChange/program.cpp) | Medium |
 | 326 | [Power of Three](https://leetcode.com//problems/power-of-three/) | [c++](src/PowerofThree/program.cpp) | Easy |
 
 
