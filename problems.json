@@ -2099,7 +2099,9 @@
             "uri": "/problems/power-of-three/",
             "name": "Power of Three",
             "difficulty": 1,
-            "is_solved": false
+            "is_solved": true,
+            "dir": "PowerofThree",
+            "solution_uri": "55811053"
         },
         "327": {
             "uri": "/problems/count-of-range-sum/",
