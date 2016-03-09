@@ -243,7 +243,9 @@
             "uri": "/problems/count-and-say/",
             "name": "Count and Say",
             "difficulty": "1",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "CountandSay",
+            "solution_uri": "55805839"
         },
         "39": {
             "uri": "/problems/combination-sum/",
