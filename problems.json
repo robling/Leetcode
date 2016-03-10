@@ -709,7 +709,9 @@
             "uri": "/problems/path-sum-ii/",
             "name": "Path Sum II",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "PathSumII",
+            "solution_uri": "55896568"
         },
         "114": {
             "uri": "/problems/flatten-binary-tree-to-linked-list/",
