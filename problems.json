@@ -701,7 +701,9 @@
             "uri": "/problems/path-sum/",
             "name": "Path Sum",
             "difficulty": "1",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "PathSum",
+            "solution_uri": "55894047"
         },
         "113": {
             "uri": "/problems/path-sum-ii/",
