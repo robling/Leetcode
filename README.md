@@ -22,6 +22,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 39 | [Combination Sum](https://leetcode.com//problems/combination-sum/) | [c++](src/CombinationSum/program.cpp) | Medium |
 | 40 | [Combination Sum II](https://leetcode.com//problems/combination-sum-ii/) | [c++](src/CombinationSumII/program.cpp) | Medium |
 | 50 | [Pow(x, n)](https://leetcode.com//problems/powx-n/) | [c++](src/Pow(x,n)/program.cpp) | Medium |
+| 64 | [Minimum Path Sum](https://leetcode.com//problems/minimum-path-sum/) | [c++](src/MinimumPathSum/program.cpp) | Medium |
 | 65 | [Valid Number](https://leetcode.com//problems/valid-number/) | [c++](src/ValidNumber/program.cpp) | Hard |
 | 69 | [Sqrt(x)](https://leetcode.com//problems/sqrtx/) | [c++](src/Sqrt(x)/program.cpp) | Medium |
 | 75 | [Sort Colors](https://leetcode.com//problems/sort-colors/) | [c++](src/SortColors/program.cpp) | Medium |

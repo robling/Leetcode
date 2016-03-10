@@ -407,7 +407,9 @@
             "uri": "/problems/minimum-path-sum/",
             "name": "Minimum Path Sum",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "MinimumPathSum",
+            "solution_uri": "55904874"
         },
         "65": {
             "uri": "/problems/valid-number/",
