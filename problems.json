@@ -713,7 +713,9 @@
             "uri": "/problems/flatten-binary-tree-to-linked-list/",
             "name": "Flatten Binary Tree to Linked List",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "FlattenBinaryTreetoLinkedList",
+            "solution_uri": "55880867"
         },
         "115": {
             "uri": "/problems/distinct-subsequences/",
