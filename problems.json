@@ -782,7 +782,9 @@
             "uri": "/problems/binary-tree-maximum-path-sum/",
             "name": "Binary Tree Maximum Path Sum",
             "difficulty": "3",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "BinaryTreeMaximumPathSum",
+            "solution_uri": "55910033"
         },
         "125": {
             "uri": "/problems/valid-palindrome/",
