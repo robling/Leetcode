@@ -6,7 +6,8 @@ envi.bat
 
 /testing
 /test
-/testing
+/src/testing
+/src/test
 
 /script/node_modules
 /script/npm-debug.log
