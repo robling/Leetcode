@@ -595,7 +595,9 @@
             "uri": "/problems/binary-tree-inorder-traversal/",
             "name": "Binary Tree Inorder Traversal",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "BinaryTreeInorderTraversal",
+            "solution_uri": "55976083"
         },
         "95": {
             "uri": "/problems/unique-binary-search-trees-ii/",
