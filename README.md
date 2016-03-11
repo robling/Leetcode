@@ -34,6 +34,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 135 | [Candy](https://leetcode.com//problems/candy/) | [c++](src/Candy/program.cpp) | Hard |
 | 136 | [Single Number](https://leetcode.com//problems/single-number/) | [c++](src/SingleNumber/program.cpp) | Medium |
 | 137 | [Single Number II](https://leetcode.com//problems/single-number-ii/) | [c++](src/SingleNumberII/program.cpp) | Medium |
+| 144 | [Binary Tree Preorder Traversal](https://leetcode.com//problems/binary-tree-preorder-traversal/) | [c++](src/BinaryTreePreorderTraversal/program.cpp) | Medium |
 | 155 | [Min Stack](https://leetcode.com//problems/min-stack/) | [c++](src/MinStack/program.cpp) | Easy |
 | 162 | [Find Peak Element](https://leetcode.com//problems/find-peak-element/) | [c++](src/FindPeakElement/program.cpp) | Medium |
 | 166 | [Fraction to Recurring Decimal](https://leetcode.com//problems/fraction-to-recurring-decimal/) | [c++](src/FractiontoRecurringDecimal/program.cpp) | Medium |

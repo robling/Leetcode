@@ -909,7 +909,9 @@
             "uri": "/problems/binary-tree-preorder-traversal/",
             "name": "Binary Tree Preorder Traversal",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "BinaryTreePreorderTraversal",
+            "solution_uri": "55975066"
         },
         "145": {
             "uri": "/problems/binary-tree-postorder-traversal/",
