@@ -60,6 +60,17 @@ std::ostream& operator<<(std::ostream& os, vector<_T> src)
     }
     return os;
 }
+
+template<typename _T>
+std::ostream& operator<<(std::ostream& os, vector<vector<_T>> src)
+{
+    for (auto& s : src)
+    {
+        os << s << endl;
+    }
+    return os;
+}
+
 template<typename _T1, typename _T2>
 std::ostream& operator<<(std::ostream& os, std::pair<_T1, _T2> src)
 {

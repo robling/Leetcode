@@ -2021,7 +2021,9 @@
             "uri": "/problems/burst-balloons/",
             "name": "Burst Balloons",
             "difficulty": 3,
-            "is_solved": false
+            "is_solved": true,
+            "dir": "BurstBalloons",
+            "solution_uri": "60074306"
         },
         "313": {
             "uri": "/problems/super-ugly-number/",
