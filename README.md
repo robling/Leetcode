@@ -102,6 +102,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 307 | [Range Sum Query - Mutable](https://leetcode.com//problems/range-sum-query-mutable/) | [c++](src/RangeSumQuery-Mutable/program.cpp) | Medium |
 | 312 | [Burst Balloons](https://leetcode.com//problems/burst-balloons/) | [c++](src/BurstBalloons/program.cpp) | Hard |
 | 313 | [Super Ugly Number](https://leetcode.com//problems/super-ugly-number/) | [c++](src/SuperUglyNumber/program.cpp) | Medium |
+| 315 | [Count of Smaller Numbers After Self](https://leetcode.com//problems/count-of-smaller-numbers-after-self/) | [c++](src/CountofSmallerNumbersAfterSelf/program.cpp) | Hard |
 | 316 | [Remove Duplicate Letters](https://leetcode.com//problems/remove-duplicate-letters/) | [c++](src/RemoveDuplicateLetters/program.cpp) | Medium |
 | 318 | [Maximum Product of Word Lengths](https://leetcode.com//problems/maximum-product-of-word-lengths/) | [c++](src/MaximumProductofWordLengths/program.cpp) | Medium |
 | 319 | [Bulb Switcher](https://leetcode.com//problems/bulb-switcher/) | [c++](src/BulbSwitcher/program.cpp) | Medium |

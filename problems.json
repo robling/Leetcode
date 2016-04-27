@@ -2043,7 +2043,9 @@
             "uri": "/problems/count-of-smaller-numbers-after-self/",
             "name": "Count of Smaller Numbers After Self",
             "difficulty": 3,
-            "is_solved": false
+            "is_solved": true,
+            "dir": "CountofSmallerNumbersAfterSelf",
+            "solution_uri": "60138492"
         },
         "316": {
             "uri": "/problems/remove-duplicate-letters/",
