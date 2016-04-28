@@ -2223,7 +2223,9 @@
             "uri": "/problems/integer-break/",
             "name": "Integer Break",
             "difficulty": 2,
-            "is_solved": false
+            "is_solved": true,
+            "dir": "IntegerBreak",
+            "solution_uri": "60230384"
         },
         "344": {
             "uri": "/problems/reverse-string/",
