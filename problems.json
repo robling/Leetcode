@@ -1,6 +1,6 @@
 {
-    "last_update": "2016-01-16T08:11:24.218Z",
-    "last_index": 328,
+    "last_update": "2016-04-28T05:54:47.190Z",
+    "last_index": 345,
     "problems": {
         "1": {
             "uri": "/problems/two-sum/",
@@ -2134,6 +2134,110 @@
             "name": "Odd Even Linked List",
             "difficulty": 1,
             "is_solved": false
+        },
+        "329": {
+            "uri": "/problems/longest-increasing-path-in-a-matrix/",
+            "name": "Longest Increasing Path in a Matrix",
+            "difficulty": 3,
+            "is_solved": false
+        },
+        "330": {
+            "uri": "/problems/patching-array/",
+            "name": "Patching Array",
+            "difficulty": 2,
+            "is_solved": false
+        },
+        "331": {
+            "uri": "/problems/verify-preorder-serialization-of-a-binary-tree/",
+            "name": "Verify Preorder Serialization of a Binary Tree",
+            "difficulty": 2,
+            "is_solved": false
+        },
+        "332": {
+            "uri": "/problems/reconstruct-itinerary/",
+            "name": "Reconstruct Itinerary",
+            "difficulty": 2,
+            "is_solved": false
+        },
+        "333": {
+            "uri": "/problems/largest-bst-subtree/",
+            "name": "Largest BST Subtree",
+            "difficulty": 2,
+            "is_solved": false
+        },
+        "334": {
+            "uri": "/problems/increasing-triplet-subsequence/",
+            "name": "Increasing Triplet Subsequence",
+            "difficulty": 2,
+            "is_solved": false
+        },
+        "335": {
+            "uri": "/problems/self-crossing/",
+            "name": "Self Crossing",
+            "difficulty": 3,
+            "is_solved": false
+        },
+        "336": {
+            "uri": "/problems/palindrome-pairs/",
+            "name": "Palindrome Pairs",
+            "difficulty": 3,
+            "is_solved": false
+        },
+        "337": {
+            "uri": "/problems/house-robber-iii/",
+            "name": "House Robber III",
+            "difficulty": 2,
+            "is_solved": false
+        },
+        "338": {
+            "uri": "/problems/counting-bits/",
+            "name": "Counting Bits",
+            "difficulty": 2,
+            "is_solved": false
+        },
+        "339": {
+            "uri": "/problems/nested-list-weight-sum/",
+            "name": "Nested List Weight Sum",
+            "difficulty": 1,
+            "is_solved": false
+        },
+        "340": {
+            "uri": "/problems/longest-substring-with-at-most-k-distinct-characters/",
+            "name": "Longest Substring with At Most K Distinct Characters",
+            "difficulty": 3,
+            "is_solved": false
+        },
+        "341": {
+            "uri": "/problems/flatten-nested-list-iterator/",
+            "name": "Flatten Nested List Iterator",
+            "difficulty": 2,
+            "is_solved": false
+        },
+        "342": {
+            "uri": "/problems/power-of-four/",
+            "name": "Power of Four",
+            "difficulty": 1,
+            "is_solved": false
+        },
+        "343": {
+            "uri": "/problems/integer-break/",
+            "name": "Integer Break",
+            "difficulty": 2,
+            "is_solved": false
+        },
+        "344": {
+            "uri": "/problems/reverse-string/",
+            "name": "Reverse String",
+            "difficulty": 1,
+            "is_solved": false
+        },
+        "345": {
+            "uri": "/problems/reverse-vowels-of-a-string/",
+            "name": "Reverse Vowels of a String",
+            "difficulty": 1,
+            "is_solved": true,
+            "dir": "ReverseVowelsofaString",
+            "solution_uri": "60222666"
         }
     }
 }

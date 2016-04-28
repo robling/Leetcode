@@ -108,6 +108,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 319 | [Bulb Switcher](https://leetcode.com//problems/bulb-switcher/) | [c++](src/BulbSwitcher/program.cpp) | Medium |
 | 322 | [Coin Change](https://leetcode.com//problems/coin-change/) | [c++](src/CoinChange/program.cpp) | Medium |
 | 326 | [Power of Three](https://leetcode.com//problems/power-of-three/) | [c++](src/PowerofThree/program.cpp) | Easy |
+| 345 | [Reverse Vowels of a String](https://leetcode.com//problems/reverse-vowels-of-a-string/) | [c++](src/ReverseVowelsofaString/program.cpp) | Easy |
 
 
 
