@@ -2217,7 +2217,9 @@
             "uri": "/problems/power-of-four/",
             "name": "Power of Four",
             "difficulty": 1,
-            "is_solved": false
+            "is_solved": true,
+            "dir": "PowerofFour",
+            "solution_uri": "60232959"
         },
         "343": {
             "uri": "/problems/integer-break/",
