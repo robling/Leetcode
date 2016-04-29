@@ -2193,7 +2193,9 @@
             "uri": "/problems/counting-bits/",
             "name": "Counting Bits",
             "difficulty": 2,
-            "is_solved": false
+            "is_solved": true,
+            "dir": "CountingBits",
+            "solution_uri": "60303139"
         },
         "339": {
             "uri": "/problems/nested-list-weight-sum/",
