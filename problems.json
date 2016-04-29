@@ -2169,7 +2169,9 @@
             "uri": "/problems/increasing-triplet-subsequence/",
             "name": "Increasing Triplet Subsequence",
             "difficulty": 2,
-            "is_solved": false
+            "is_solved": true,
+            "dir": "IncreasingTripletSubsequence",
+            "solution_uri": "60322846"
         },
         "335": {
             "uri": "/problems/self-crossing/",
