@@ -77,7 +77,9 @@
             "uri": "/problems/container-with-most-water/",
             "name": "Container With Most Water",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "ContainerWithMostWater",
+            "solution_uri": "60571139"
         },
         "12": {
             "uri": "/problems/integer-to-roman/",
