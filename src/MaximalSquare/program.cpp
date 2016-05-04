@@ -7,10 +7,8 @@ int maximalSquare(vector<vector<char>>& matrix)
     if (matrix.size() == 0) return 0;
     auto M = matrix.size();
     auto N = matrix[0].size();
-    vector<vector<int>> p;
-    p.resize(M + 1);
+    vector<vector<int>> p (M + 1, vector<int> (N + 1, 0));
     int maxSideLength = 0;
-    for (auto& pi : p) pi.resize(N + 1, 0);
     for (int i = 1; i <= M; i++) {
         for (int j = 1; j <= N; j++) {
             if (matrix[i-1][j-1] == '1') {

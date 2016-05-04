@@ -1407,7 +1407,8 @@
             "name": "Maximal Square",
             "difficulty": "2",
             "is_solved": true,
-            "dir": "MaximalSquare"
+            "dir": "MaximalSquare",
+            "solution_uri": "60662641"
         },
         "222": {
             "uri": "/problems/count-complete-tree-nodes/",
