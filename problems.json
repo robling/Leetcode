@@ -515,7 +515,9 @@
             "uri": "/problems/remove-duplicates-from-sorted-array-ii/",
             "name": "Remove Duplicates from Sorted Array II",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "RemoveDuplicatesfromSortedArrayII",
+            "solution_uri": "61643577"
         },
         "81": {
             "uri": "/problems/search-in-rotated-sorted-array-ii/",
