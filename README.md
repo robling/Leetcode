@@ -27,6 +27,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 64 | [Minimum Path Sum](https://leetcode.com//problems/minimum-path-sum/) | [c++](src/MinimumPathSum/program.cpp) | Medium |
 | 65 | [Valid Number](https://leetcode.com//problems/valid-number/) | [c++](src/ValidNumber/program.cpp) | Hard |
 | 69 | [Sqrt(x)](https://leetcode.com//problems/sqrtx/) | [c++](src/Sqrt(x)/program.cpp) | Medium |
+| 71 | [Simplify Path](https://leetcode.com//problems/simplify-path/) | [c++](src/SimplifyPath/program.cpp) | Medium |
 | 75 | [Sort Colors](https://leetcode.com//problems/sort-colors/) | [c++](src/SortColors/program.cpp) | Medium |
 | 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com//problems/remove-duplicates-from-sorted-array-ii/) | [c++](src/RemoveDuplicatesfromSortedArrayII/program.cpp) | Medium |
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com//problems/binary-tree-inorder-traversal/) | [c++](src/BinaryTreeInorderTraversal/program.cpp) | Medium |

@@ -459,7 +459,9 @@
             "uri": "/problems/simplify-path/",
             "name": "Simplify Path",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "SimplifyPath",
+            "solution_uri": "61655794"
         },
         "72": {
             "uri": "/problems/edit-distance/",
