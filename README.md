@@ -119,6 +119,7 @@ All solutions can be compiled by MSVS and run separately with few testing cases.
 | 342 | [Power of Four](https://leetcode.com//problems/power-of-four/) | [c++](src/PowerofFour/program.cpp) | Easy |
 | 343 | [Integer Break](https://leetcode.com//problems/integer-break/) | [c++](src/IntegerBreak/program.cpp) | Medium |
 | 345 | [Reverse Vowels of a String](https://leetcode.com//problems/reverse-vowels-of-a-string/) | [c++](src/ReverseVowelsofaString/program.cpp) | Easy |
+| 347 | [Top K Frequent Elements](https://leetcode.com//problems/top-k-frequent-elements/) | [c++](src/TopKFrequentElements/program.cpp) | Medium |
 
 
 

@@ -1,6 +1,6 @@
 {
-    "last_update": "2016-04-28T05:54:47.190Z",
-    "last_index": 345,
+    "last_update": "2016-05-17T02:54:02.928Z",
+    "last_index": 348,
     "problems": {
         "1": {
             "uri": "/problems/two-sum/",
@@ -2259,6 +2259,26 @@
             "is_solved": true,
             "dir": "ReverseVowelsofaString",
             "solution_uri": "60222666"
+        },
+        "346": {
+            "uri": "/problems/moving-average-from-data-stream/",
+            "name": "Moving Average from Data Stream",
+            "difficulty": 1,
+            "is_solved": false
+        },
+        "347": {
+            "uri": "/problems/top-k-frequent-elements/",
+            "name": "Top K Frequent Elements",
+            "difficulty": 2,
+            "is_solved": true,
+            "dir": "TopKFrequentElements",
+            "solution_uri": "61719439"
+        },
+        "348": {
+            "uri": "/problems/design-tic-tac-toe/",
+            "name": "Design Tic-Tac-Toe",
+            "difficulty": 2,
+            "is_solved": false
         }
     }
 }
