@@ -573,7 +573,9 @@
             "uri": "/problems/gray-code/",
             "name": "Gray Code",
             "difficulty": "2",
-            "is_solved": false
+            "is_solved": true,
+            "dir": "GrayCode",
+            "solution_uri": "61813404"
         },
         "90": {
             "uri": "/problems/subsets-ii/",
