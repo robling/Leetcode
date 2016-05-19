@@ -4,7 +4,7 @@
 		"module": "commonjs"
 	},
 	"files": [
-		"helper.js",
-		"typings/node/node.d.ts"
+		"helper.ts",
+		"typings/index.d.ts"
 	]
 }
