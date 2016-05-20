@@ -1,3 +1,4 @@
+/// <reference path="typings/index.d.ts" />
 /*
  Aim: 
     0. refactor with typescript
@@ -6,6 +7,11 @@
     3. support other languages
     4. ahead version to 2.0
  */
-let k : string = 'Hello Warld!';
-console.log(k);
+//import {main as test} from './libs/leetcodeParser'
+
 const dirname : string = __dirname;
+console.log(dirname);
+
+import {main as test} from './libs/leetcodeParser'
+
+test();

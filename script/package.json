@@ -10,7 +10,7 @@
   },
   "dependencies": {
       "commander": "*",
-      "sync-request": "*",
+      "request": "*",
       "readline-sync": "*",
       "swig": "*"
   }

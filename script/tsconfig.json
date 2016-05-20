@@ -5,6 +5,7 @@
 	},
 	"files": [
 		"helper.ts",
+		"libs/leetcodeParser.ts",
 		"typings/index.d.ts"
 	]
 }
