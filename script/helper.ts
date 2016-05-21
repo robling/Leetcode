@@ -12,6 +12,6 @@
 const dirname : string = __dirname;
 console.log(dirname);
 
-import {main as test} from './libs/leetcodeParser'
+import {debug as test} from './libs/leetcodeParser'
 
 test();

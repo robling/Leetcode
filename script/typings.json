@@ -5,6 +5,7 @@
   },
   "globalDependencies": {
     "commander": "registry:dt/commander#2.3.0+20160317120654",
-    "node": "registry:dt/node#6.0.0+20160514165920"
+    "node": "registry:dt/node#6.0.0+20160514165920",
+    "swig": "registry:dt/swig#0.0.0+20160316155526"
   }
 }

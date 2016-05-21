@@ -1,4 +1,5 @@
 import * as request from 'request';
+import * as fs from 'fs'
 
 const leetcode_base_uri = 'https://leetcode.com/';
 const leetcode_uri = {
@@ -7,6 +8,9 @@ const leetcode_uri = {
     shell: 'https://leetcode.com/problemset/shell/'
 };
 
+/**
+ * Async function to fetch url
+ */
 async function fetch(uri : string) : Promise<string>
 {
     return new Promise<string>(resolve => {
@@ -43,6 +47,9 @@ interface leetcode_problems_detail
     [index : number] : leetcode_problem_detail
 }
 
+/**
+ * Parser leetcode problem string to detailed problem info
+ */
 async function parserProblemDetail(meta : string) : Promise<leetcode_problem_detail>
 {
     //TODO:
@@ -63,4 +70,16 @@ async function main()
     console.log(xx);
 }
 
-export {main};
+async function debug_fetchSaveLeetcodeURL()
+{
+    let html = await fetch(leetcode_uri.algorithms);
+    console.log(html);
+    fs.writeFileSync("./leetcode_algorithm_html.html", html);
+}
+
+async function debug()
+{
+    debug_fetchSaveLeetcodeURL();
+}
+
+export {main, debug};

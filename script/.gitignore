@@ -2,3 +2,4 @@ typings/
 # Still under heavy development
 # prevent *js file from being traced
 *.js
+*.html
