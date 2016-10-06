@@ -8,18 +8,13 @@
     4. ahead version to 2.0
  */
 //import {main as test} from './libs/leetcodeParser'
+import * as path from 'path'
 import * as fs from 'fs'
-const dirname : string = __dirname;
-console.log(dirname);
+const repo_root_path = path.resolve(__dirname, '../');
+const source_dir = path.resolve(repo_root_path, 'src');
 
-import {debug as test} from './libs/leetcodeParser'
+import {CLRParser as clr} from './libs/clr'
 import {Config as Config} from './libs/configHandler'
 
-let c = new Config();
-//c.update_old_json_config('../problems.json');
-c.load_from_json_file('../ppp.json');
-c.update_from_leetcode();
-c.json_file_path = '../ppp2.json';
-c.write_back_to_json();
-
-//test();
+let cfg = new Config(source_dir, '../ppp.json');
+clr(cfg, process.argv);

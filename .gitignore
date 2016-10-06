@@ -12,3 +12,7 @@ envi.bat
 /script/node_modules
 /script/npm-debug.log
 /script/cache.json
+
+#debug
+ppp*
+leetcode.json
